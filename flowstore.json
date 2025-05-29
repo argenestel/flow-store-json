@@ -1,0 +1,15 @@
+ {
+  "DeFiLlamaFlow": "@skynetxbt/flow-defillama",
+  "BeefySuggestionsFlow": "@skynetxbt/flow-beefy-suggestions",
+  "ArcadiaSuggestionsFlow": "@skynetxbt/flow-arcadia-finance",
+  "BerachainFlow": "@skynetxbt/flow-berachain",
+  "MCPAgentFlow": "@skynetxbt/flow-mcp-agent",
+  "HyperbrowserResearchFlow": "@skynetxbt/flow-hyperbrowser-research",
+  "OutputFlow": "@skynetxbt/flow-output-flow",
+  "TelegramFlow": "@skynetxbt/flow-telegram",
+  "ConditionalFlow": "@skynetxbt/flow-conditional",
+  "TimerFlow": "@skynetxbt/flow-timer",
+  "LLMAgentFlow": "@skynetxbt/flow-llm-agent",
+  "CryptoDataInsightsFlow": "@skynetxbt/flow-ai-investor",
+  "BlockchainInteractionFlow": "@skynetxbt/flow-ethers"
+}
