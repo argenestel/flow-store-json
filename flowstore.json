@@ -11,5 +11,8 @@
   "TimerFlow": "@skynetxbt/flow-timer",
   "LLMAgentFlow": "@skynetxbt/flow-llm-agent",
   "CryptoDataInsightsFlow": "@skynetxbt/flow-ai-investor",
-  "BlockchainInteractionFlow": "@skynetxbt/flow-ethers"
+  "BlockchainInteractionFlow": "@skynetxbt/flow-ethers",
+    "GoatSdkFlow": "@skynetxbt/flow-goat-sdk",
+  "WebhookFlow": "@skynetxbt/flow-webhook",
+  "FetchUriFlow": "@skynetxbt/flow-fetch"
 }
