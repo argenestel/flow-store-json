@@ -1,4 +1,4 @@
- {
+{
   "DeFiLlamaFlow": "@skynetxbt/flow-defillama",
   "BeefySuggestionsFlow": "@skynetxbt/flow-beefy-suggestions",
   "ArcadiaSuggestionsFlow": "@skynetxbt/flow-arcadia-finance",
@@ -12,8 +12,8 @@
   "LLMAgentFlow": "@skynetxbt/flow-llm-agent",
   "CryptoDataInsightsFlow": "@skynetxbt/flow-ai-investor",
   "BlockchainInteractionFlow": "@skynetxbt/flow-ethers",
-    "GoatSdkFlow": "@skynetxbt/flow-goat-sdk",
+  "GoatSdkFlow": "@skynetxbt/flow-goat-sdk",
   "WebhookFlow": "@skynetxbt/flow-webhook",
   "FetchUriFlow": "@skynetxbt/flow-fetch",
-    "ParserFlow": "@skynetxbt/flow-parser",
+  "ParserFlow": "@skynetxbt/flow-parser",
 }
