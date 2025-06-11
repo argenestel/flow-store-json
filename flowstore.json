@@ -14,5 +14,6 @@
   "BlockchainInteractionFlow": "@skynetxbt/flow-ethers",
     "GoatSdkFlow": "@skynetxbt/flow-goat-sdk",
   "WebhookFlow": "@skynetxbt/flow-webhook",
-  "FetchUriFlow": "@skynetxbt/flow-fetch"
+  "FetchUriFlow": "@skynetxbt/flow-fetch",
+    "ParserFlow": "@skynetxbt/flow-parser",
 }
