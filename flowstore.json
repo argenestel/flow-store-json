@@ -15,5 +15,5 @@
   "GoatSdkFlow": "@skynetxbt/flow-goat-sdk",
   "WebhookFlow": "@skynetxbt/flow-webhook",
   "FetchUriFlow": "@skynetxbt/flow-fetch",
-  "ParserFlow": "@skynetxbt/flow-parser",
+  "ParserFlow": "@skynetxbt/flow-parser"
 }
