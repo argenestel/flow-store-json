@@ -1,4 +1,4 @@
-{
+ {
   "DeFiLlamaFlow": "@skynetxbt/flow-defillama",
   "BeefySuggestionsFlow": "@skynetxbt/flow-beefy-suggestions",
   "ArcadiaSuggestionsFlow": "@skynetxbt/flow-arcadia-finance",
@@ -15,5 +15,7 @@
   "GoatSdkFlow": "@skynetxbt/flow-goat-sdk",
   "WebhookFlow": "@skynetxbt/flow-webhook",
   "FetchUriFlow": "@skynetxbt/flow-fetch",
-  "ParserFlow": "@skynetxbt/flow-parser"
+  "ParserFlow": "@skynetxbt/flow-parser",
+  "GoogleFlow": "@skynetxbt/flow-google",
+  "LoopFlow": "@skynetxbt/flow-loop"
 }
