@@ -1,4 +1,4 @@
- {
+{
   "DeFiLlamaFlow": "@skynetxbt/flow-defillama",
   "BeefySuggestionsFlow": "@skynetxbt/flow-beefy-suggestions",
   "ArcadiaSuggestionsFlow": "@skynetxbt/flow-arcadia-finance",
@@ -16,6 +16,7 @@
   "WebhookFlow": "@skynetxbt/flow-webhook",
   "FetchUriFlow": "@skynetxbt/flow-fetch",
   "ParserFlow": "@skynetxbt/flow-parser",
-  "GoogleFlow": "@skynetxbt/flow-google",
-  "LoopFlow": "@skynetxbt/flow-loop"
+  "GoogleServiceFlow": "@skynetxbt/flow-google",
+  "LoopFlow": "@skynetxbt/flow-loop",
+  "WaitFlow": "@skynetxbt/flow-wait"
 }
