@@ -18,5 +18,6 @@
   "ParserFlow": "@skynetxbt/flow-parser",
   "GoogleServiceFlow": "@skynetxbt/flow-google",
   "LoopFlow": "@skynetxbt/flow-loop",
-  "WaitFlow": "@skynetxbt/flow-wait"
+  "WaitFlow": "@skynetxbt/flow-wait",
+    "InputFlow": "@skynetxbt/flow-input"
 }
