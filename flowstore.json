@@ -17,9 +17,9 @@
   "FetchUriFlow": "@skynetxbt/flow-fetch",
   "ParserFlow": "@skynetxbt/flow-parser",
   "GoogleServiceFlow": "@skynetxbt/flow-google",
+  "AirtableFlow": "@skynetxbt/flow-airtable",
   "LoopFlow": "@skynetxbt/flow-loop",
   "WaitFlow": "@skynetxbt/flow-wait",
-    "InputFlow": "@skynetxbt/flow-input",
-  "ConverterFlow": "@skynetxbt/flow-converters",
-    "AirtableFlow": "@skynetxbt/flow-airtable",
+  "InputFlow": "@skynetxbt/flow-input",
+  "ConverterFlow": "@skynetxbt/flow-converter"
 }
