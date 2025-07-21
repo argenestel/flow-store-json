@@ -20,5 +20,6 @@
   "LoopFlow": "@skynetxbt/flow-loop",
   "WaitFlow": "@skynetxbt/flow-wait",
     "InputFlow": "@skynetxbt/flow-input",
-  "ConverterFlow": "@skynetxbt/flow-converters"
+  "ConverterFlow": "@skynetxbt/flow-converters",
+    "AirtableFlow": "@skynetxbt/flow-airtable",
 }
