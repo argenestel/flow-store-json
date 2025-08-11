@@ -22,5 +22,6 @@
   "WaitFlow": "@skynetxbt/flow-wait",
   "InputFlow": "@skynetxbt/flow-input",
   "ConverterFlow": "@skynetxbt/flow-converters",
-  "ACPFlow": "@skynetxbt/flow-acp"
+  "ACPFlow": "@skynetxbt/flow-acp",
+  "SolanaAgentKitFlow": "@skynetxbt/flow-solana-agent-kit"
 }
