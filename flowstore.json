@@ -24,5 +24,5 @@
   "ConverterFlow": "@skynetxbt/flow-converters",
   "ACPFlow": "@skynetxbt/flow-acp",
   "SolanaAgentKitFlow": "@skynetxbt/flow-solana-agent-kit",
-    "LifiFlow": "@skynetxbt/flow-lifi",
+    "LifiFlow": "@skynetxbt/flow-lifi"
 }
