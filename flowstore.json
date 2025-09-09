@@ -26,5 +26,5 @@
   "SolanaAgentKitFlow": "@skynetxbt/flow-solana-agent-kit",
     "LifiFlow": "@skynetxbt/flow-lifi",
   "InputFlow": "@skynetxbt/flow-input",
-  "HyperLiquidFlow": "@skynetxbt/flow-hyperliquid"
+  "HyperliquidFlow": "@skynetxbt/flow-hyperliquid"
 }
