@@ -27,6 +27,5 @@
     "LifiFlow": "@skynetxbt/flow-lifi",
   "InputFlow": "@skynetxbt/flow-input",
   "HyperliquidFlow": "@skynetxbt/flow-hyperliquid",
-  "KlippyVideoFlow": "@skynetxbt/flow-klippy-generator",
-    "GeminiYouTubeFlow": "@skynetxbt/flow-gemini"
+  "KlippyVideoFlow": "@skynetxbt/flow-klippy-generator"
 }
