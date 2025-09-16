@@ -28,5 +28,5 @@
 	"InputFlow": "@skynetxbt/flow-input",
 	"HyperliquidFlow": "@skynetxbt/flow-hyperliquid",
 	"KlippyVideoFlow": "@skynetxbt/flow-klippy-generator",
-	"GeminiYoutubeFlow": "@skynetxbt/flow-gemini",
+	"GeminiYoutubeFlow": "@skynetxbt/flow-gemini"
 }
