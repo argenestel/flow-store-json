@@ -1,0 +1,150 @@
+About Aerodrome
+Aerodrome Finance is a next-generation AMM designed to serve as Base's central liquidity hub, combining a powerful liquidity incentive engine, vote-lock governance model, and friendly user experience. Aerodrome inherits the latest features from Velodrome V2.
+
+Aerodrome launched on 28th of August, 2023 on BASE network.
+
+Aerodrome Mechanics
+LOW SLIPPAGE
+FEES
+AERO EMISSIONS
+LIQUIDITY
+INCENTIVES
+LOW SLIPPAGE
+FEES
+AERO EMISSIONS
+LIQUIDITY
+INCENTIVES
+veAERO VOTERS
+TRADERS
+PROTOCOLS
+LP’s
+The protocol is designed to enable token swaps and generate fees (from Traders) by attracting liquidity.
+Every epoch liquidity providers (LPs) receive $AERO token emissions proportionally to the votes the pools accumulate. Only staked (in the protocol gauges) liquidity receive emissions.
+Participants can lock their $AERO to be able to vote on the next epoch distribution of emissions, becoming veAERO Voters.
+veAERO Voters are rewarded (proportionally to locked amounts) for their votes with 100% of the protocol trading fees from the previous epoch and any additional voters incentives from the current epoch.
+An epoch is a 7-day period. It starts every Thursday at 00:00 UTC and ends Wednesday at 23:59 UTC. Votes, emissions, fees, and incentives are calculated for each epoch.
+Tokenomics
+Aerodrome Finance uses two tokens to manage its utility and governance:
+
+$AERO — ERC-20 utility token of the protocol
+$veAERO — ERC-721 governance token in the form of an NFT (non-fungible token)
+$AERO is distributed to liquidity providers through emissions.
+
+$veAERO is used for governance. Any $AERO holder can vote-escrow their tokens and receive a $veAERO (also known as Lock or veNFT) in exchange. Additional tokens can be added to the $veAERO NFT at any time.
+
+The lock period (also known as vote-escrowed period, hence the ve prefix) can be up to 4 years, following the linear relationship shown below:
+
+100 $AERO locked for 4 years will become 100 $veAERO
+100 $AERO locked for 1 year will become 25 $veAERO
+The longer the vesting time, the higher the voting power (voting weight) of the underlying locked balance.
+
+Additionally, Aerodrome Locks (veNFTs) can be set into Auto-Max Lock, which are treated by the protocol as being locked for the maximum duration of 4 years, and their voting power does not decay. The Auto-Max Lock feature can be turned on and off for each Lock (veNFT).
+
+Initial Distribution
+AERO	Amount	Percentage
+Voter Incentives	40M	8%
+Genesis Liquidity Incentives	10M	2%
+veAERO	Amount	Percentage
+Airdrop for veVELO Lockers	200M	40%
+Public Goods Fund (Auto Max-Locked)	105M	21%
+Development Team Funding (Auto Max-Locked)	95M	19%
+Flight School (Auto Max-Locked)	50M	10%
+Emissions
+The initial supply of $AERO is 500M, with 450M distributed as vote-locked ($veAERO) tokens.
+
+Weekly emissions will begin at 10M $AERO (2% of the initial supply). The emission schedule will follow three phases:
+
+Take-off: During the first 14 weeks (epochs), emissions will increase at 3% per week, allowing for rapid growth in protocol activity and partner onboarding.
+
+Cruise: After Epoch 14, emissions will decay at 1% per epoch, ensuring total supply inflation decreases over time as the protocol matures.
+
+Aero Fed: When emissions programmatically drop under 9M per epoch, approximately Epoch 67, veAERO voters will take control of Aerodrome's monetary policy through the Aero Fed system. Voters will collectively make one of three choices each epoch:
+
+Increase emissions by 0.01% of total supply (0.52% annualized)
+Decrease emissions by 0.01% of total supply (0.52% annualized)
+Maintain emissions unchanged as a % of total supply
+The winning vote will be determined by simple majority vote. If an Increase or Decrease is selected, the emission rate will change one full epoch after the vote. A max emission rate will be set at 1% of total supply per week (52% annualized) and a minimum rate at 0.01% per week (0.52% annualized).
+
+Rebase
+$veAERO holders receive a rebase proportional to $AERO emissions and to the ratio of $veAERO to $AERO supply, reducing vote power dilution for $veAERO!
+
+
+The weekly rebase amount is calculated with the following formula:
+
+rebase = weeklyEmissions × (1 - veAERO.totalSupply ÷ AERO.totalsupply)ˆ2 × 0.5
+
+This rebase formula will reward $veAERO holders most when locking rates decrease, incentivizing new lockers to step in. $veAERO supply does not affect weekly emissions distributed to liquidity providers.
+
+
+Projected Emission Schedule
+Note: projection below uses a 40% emissions lock rate and assumes Aero Fed keeps emissions constant.
+
+
+
+Emission Rewards
+Each epoch, $AERO emissions are distributed to liquidity pools proportionally to the $veAERO voting power the pools receive.
+
+Liquidity providers (LPs) can stake their LP positions to receive a share of the $AERO distributed to each pool proportionally to the size of positions and time staked.
+
+These rewards are distributed during the whole epoch and available for claiming as these accrue.
+
+Team Emissions
+While a fully autonomous and immutable protocol is an admirable objective, it comes at a cost. Aerodrome will ensure its long-term sustainability by employing a dedicated team focused on supporting the product decentralization, documentation, community, and ecosystem.
+
+To cover ongoing expenses and all the upcoming development efforts, 5% of the emissions will be going to the team address.
+
+Security Overview
+Aerodrome Finance inherits the contract architecture and full security maintenance from Velodrome V2. Velodrome V2 has been audited and runs a bug-bounty program.
+
+To review the current state of the smart-contracts and the bug bounty program, please refer to the Velodrome security page.
+
+For security reports, please reach out to us on Discord, or to the contacts provided on our Github page.
+
+Emergency Council, Foundations and Public Goods Fund
+To support the health of the protocol and ecosystem, there is a Council consisting of members from the Aerodrome team and prominent figures from within the Optimism and Base community.
+
+The Council can be spawned in case of emergency situations or by passing a governance proposal that requires the council's help to be executed.
+
+The Council address is at 0x99249b10593fCa1Ae9DAE6D4819F1A6dae5C013D and it:
+
+can set a new emergencyCouncil
+can kill a gauge
+can revive a gauge
+can set a custom name or symbol for a pool
+can activate or deactivate (m)veNFTs (superseded by the governance once enabled)
+Important multisigs:
+
+0xBDE0c70BdC242577c52dFAD53389F82fd149EA5a - Aerodrome Foundation and Incentives
+0x834C0DA026d5F933C2c18Fa9F8Ba7f1f792fDa52 - Public Goods Fund
+Contract Addresses
+Contract Name	Address
+AERO	0x940181a94A35A4569E4529A3CDfB74e38FD98631
+AirdropDistributor	0xE4c69af018B2EA9e575026c0472B6531A2bC382F
+ArtProxy	0xE9992487b2EE03b7a91241695A58E0ef3654643E
+FactoryRegistry	0x5C3F18F06CC09CA1910767A34a20F771039E37C0
+Forwarder	0x15e62707FCA7352fbE35F51a8D6b0F8066A05DCc
+GaugeFactory	0x35f35cA5B132CaDf2916BaB57639128eAC5bbcb5
+ManagedRewardsFactory	0xFdA1fb5A2a5B23638C7017950506a36dcFD2bDC3
+Minter	0xeB018363F0a9Af8f91F06FEe6613a751b2A33FE5
+PoolFactory	0x420DD381b31aEf6683db6B902084cB0FFECe40Da
+RewardsDistributor	0x227f65131A261548b057215bB1D5Ab2997964C7d
+Router	0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43
+Voter	0x16613524e02ad97eDfeF371bC883F2F5d6C480A5
+VotingEscrow	0xeBf418Fe2512e7E6bd9b87a8F0f294aCDC67e6B4
+VotingRewardsFactory	0x45cA74858C579E717ee29A86042E0d53B252B504
+Slipstream Contract Name	Address
+GaugeFactory	0xD30677bd8dd15132F251Cb54CbDA552d2A05Fb08
+GaugeImplementation	0xF5601F95708256A118EF5971820327F362442D2d
+MixedQuoter	0x0A5aA5D3a4d28014f967Bf0f29EAA3FF9807D5c6
+NonfungiblePositionManager	0x827922686190790b37229fd06084350E74485b72
+NonfungibleTokenPositionDescriptor	0x01b0CaCB9A8004e08D075c919B5dF3b59FD53c55
+PoolFactory	0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A
+PoolImplementation	0xeC8E5342B19977B4eF8892e02D8DAEcfa1315831
+Quoter	0x254cF9E1E6e233aa1AC962CB9B05b2cfeAaE15b0
+SwapFeeModule	0xF4171B0953b52Fa55462E4d76ecA1845Db69af00
+UnstakedFeeModule	0x0AD08370c76Ff426F534bb2AFFD9b5555338ee68
+UniversalRouter	0x6Cb442acF35158D5eDa88fe602221b67B400Be3E
+SwapRouter	0xBE6D8f0d05cC4be24d5167a3eF062215bE6D18a5
+Misc Contract Name	Address
+Prices Oracle	0xee717411f6E44F9feE011835C8E6FAaC5dEfF166
+SlipstreamHelper	0x0AD09A66af0154a84e86F761313d02d0abB6edd5
