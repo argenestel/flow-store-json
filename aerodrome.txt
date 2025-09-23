@@ -1651,3 +1651,67 @@ Evolution of Stablecoins (Stablecoin 2.0): Collins introduces the idea of "Stabl
 User-Centric Financial Products: The discussion emphasizes a shift towards financial products where the end-users receive the value. This contrasts with the traditional model where intermediaries often capture most of the profits.
 Increased Competition and Innovation: The entry of major financial players like Visa, JP Morgan, and Mastercard into the stablecoin space is seen as a driver of competition and innovation. This is expected to lead to better and more efficient financial services for consumers.
 Mass Adoption of Cryptocurrency: The growing acceptance and regulation of cryptocurrencies, particularly the holding of Bitcoin on corporate balance sheets and the potential for tokenized assets in retirement accounts, are viewed as paving the way for mainstream adoption of digital assets.
+
+### Tutorial 1: How to Swap Tokens on Aerodrome Finance
+
+Swapping tokens on Aerodrome is straightforward, leveraging its automated market maker (AMM) for low-slippage trades. This is ideal for exchanging assets like ETH for USDC or other Base-native tokens. Ensure you're on the Base network (an Ethereum L2) with a compatible wallet like MetaMask or Coinbase Wallet.
+
+#### Prerequisites
+- A Web3 wallet (e.g., MetaMask, Coinbase Wallet, WalletConnect) connected to the Base network.
+- ETH on Base for gas fees (bridge from Ethereum mainnet via the official Base bridge at bridge.base.org if needed).
+- Tokens to swap (e.g., USDC, ETH, or any supported asset).
+
+#### Step-by-Step Instructions
+1. Visit the Aerodrome Website: Go to https://aerodrome.finance. This is the official centralized interface. For added security, use decentralized alternatives like aero.drome.eth or aero.drome.eth.limo if preferred.
+   
+2. Connect Your Wallet: Click "Connect Wallet" in the top-right corner. Select your wallet provider and approve the connection. Ensure your wallet is switched to the Base network (Chain ID: 8453). If not, add it manually in MetaMask: RPC URL https://mainnet.base.org, Symbol ETH.
+
+3. Navigate to the Swap Interface: By default, the homepage loads the swap tab. If not, click "Swap" in the left menu.
+
+4. Select Tokens and Amount: 
+   - In the "From" field, select the token you want to swap (e.g., ETH). Enter the amount.
+   - In the "To" field, select the desired output token (e.g., AERO). The platform auto-calculates the output based on current liquidity and rates.
+   - Over 180 tokens are supported; use the search bar for less common ones.
+   - Review details: Exchange rate, slippage tolerance (default 0.5%—adjust if needed for volatile pairs), price impact, and estimated gas fees.
+
+5. Approve and Confirm the Swap:
+   - If swapping a non-native token, approve the contract to spend your tokens (one-time per token).
+   - Click "Swap" and confirm the transaction in your wallet. Pay the gas fee (typically low on Base, ~$0.01–$0.10).
+   - Wait for confirmation (usually 1–5 seconds on Base).
+
+6. Verify the Transaction: Check your wallet balance for the new tokens. Use Basescan (basescan.org) to view the tx hash for details.
+
+#### Tips and Best Practices
+- Slippage and Price Impact: For large trades, increase slippage to 1–3% to avoid failures, but monitor for high impact (>5%) indicating low liquidity.
+- MEV Protection: Aerodrome's Slipstream (upcoming V2) offers intent-based routing for better execution.
+- Fees: Dynamic fees (0.01%–1%) based on pool type; 100% go to veAERO voters.
+- Common Issues: If the swap fails, check gas limits or network congestion. Use a VPN if geo-restricted.
+- Advanced: For cross-chain swaps (e.g., Solana assets), use upcoming bridging features.
+
+This process is similar for buying specific tokens like $VTN or others via liquidity pools.
+
+### Tutorial 2: How to Provide Liquidity on Aerodrome Finance
+
+Providing liquidity earns you trading fees and AERO emissions. It's key for passive income but involves impermanent loss risk.
+
+#### Prerequisites
+- Wallet connected to Base with tokens for the pool (e.g., equal value of Token A and Token B).
+- ETH for gas.
+
+#### Step-by-Step Instructions
+1. Access the Liquidity Tab: On https://aerodrome.finance, click "Liquidity" in the left menu.
+
+2. Select or Search for a Pool: 
+   - Browse 399+ pools categorized by active, stable, volatile, incentivized, or low TVL.
+   - Search by token (e.g., AERO-USDC). Check APR (e.g., 4%–500+%) and TVL for liquidity health.
+
+3. Deposit Tokens:
+   - Enter amounts for both tokens (auto-balances for 50/50 pairs).
+   - Approve contracts if needed.
+   - Click "Deposit" and confirm in wallet.
+
+4. Stake LP Tokens in a Gauge (Optional for Emissions): 
+   - After depositing, receive LP tokens.
+   - Go to the pool's gauge and stake LP to earn AERO rewards.
+
+5. Monitor and Manage: Use dashboards to track APR, emissions, and impermanent loss.
