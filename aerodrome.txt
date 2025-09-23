@@ -958,4 +958,686 @@ Funding
 In February 2024, Aerodrome Finance received an investment from the Base Ecosystem Fund, a program led by CB Ventures to support on-chain projects within the Base network. While the amount was not disclosed, the investment signaled strategic backing for Aerodrome, which held a 30% market share on Base and over $132 million in total value locked at the time, according to DeFiLlama. The fund had previously supported other Base-based projects such as Avantis, BSX, Onboard, and Truflation. Aerodrome described the investment as a step toward deeper collaboration in advancing Base’s infrastructure and liquidity ecosystem. [3] [4]
 
 
+Here's a transcript of the video:
 
+00:00 - 00:04: The Defiant Podcast. thedefiant.io
+00:04 - 00:05: Graphic with diagonal green lines.
+00:05 - 00:10: Camila Russo: Hey everyone, welcome to The Defiant Podcast.
+00:10 - 00:12: Camila Russo: I'm your host, Camila Russo.
+00:12 - 00:15: Camila Russo: Today I have Alex Cutler, co-founder of Aerodrome Finance.
+00:15 - 00:17: Camila Russo: Alex, thanks so much for joining me.
+00:17 - 00:38: Camila Russo: Yeah, that was a super interesting point. Before we jump into the next question, I just wanted to ask you, why do you think these new projects on Base are attracting so much liquidity and so much usage?
+00:38 - 00:41: Alexander Cutler: Yeah, no, absolutely. Thanks for having me on.
+00041 - 00:46: Alexander Cutler: I mean, I think it's a few things.
+00:46 - 00:50: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+00:50 - 01:03: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+01:03 - 01:08: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+01:08 - 01:13: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+01:13 - 01:19: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+01:19 - 01:23: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+01:23 - 01:27: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+01:27 - 01:34: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+01:34 - 01:39: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+01:39 - 01:43: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+01:43 - 01:49: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+01:49 - 1:53: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+01:53 - 1:59: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+1:59 - 2:04: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+2:04 - 2:09: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+2:09 - 2:13: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+2:13 - 2:18: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+2:18 - 2:23: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+2:23 - 2:28: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+2:28 - 2:32: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+2:32 - 2:37: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+2:37 - 2:42: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+2:42 - 2:48: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+2:48 - 2:54: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+2:54 - 3:00: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+3:00 - 3:05: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+3:05 - 3:07: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+3:07 - 3:12: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+3:12 - 3:16: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+3:16 - 3:21: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+3:21 - 3:27: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+3:27 - 3:34: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+3:34 - 3:40: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+3:40 - 3:45: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+3:45 - 3:51: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+3:51 - 3:56: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+3:56 - 4:02: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+4:02 - 4:06: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+4:06 - 4:10: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+4:10 - 4:17: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+4:17 - 4:22: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+4:22 - 4:27: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+4:27 - 4:32: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+4:32 - 4:38: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+4:38 - 4:44: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+4:44 - 4:49: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+4:49 - 4:54: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+4:54 - 5:02: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+5:02 - 5:03: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+5:03 - 5:04: Camila Russo: Yeah.
+5:04 - 5:08: Camila Russo: So I think that's super important, just like from a marketing perspective.
+5:08 - 5:12: Camila Russo: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+5:12 - 5:16: Camila Russo: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+5:16 - 5:21: Camila Russo: And so I think that's super important just for like new user onboarding.
+5:21 - 5:24: Camila Russo: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+5:24 - 5:29: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+5:29 - 5:35: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+5:35 - 5:40: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+5:40 - 5:46: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+5:46 - 5:52: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+5:52 - 5:57: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+55:57 - 6:01: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+6:01 - 6:06: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+6:06 - 6:12: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+6:12 - 6:18: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+6:18 - 6:23: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+6:23 - 6:28: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+6:28 - 6:33: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+6:33 - 6:39: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+6:39 - 6:44: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+6:44 - 6:49: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+6:49 - 6:54: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+6:54 - 7:01: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+7:01 - 7:06: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+7:06 - 7:11: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+7:11 - 7:16: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+7:16 - 7:21: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+7:21 - 7:26: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+7:26 - 7:32: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+7:32 - 7:38: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+7:38 - 7:44: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+7:44 - 7:50: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+7:50 - 7:55: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+7:55 - 8:01: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+8:01 - 8:05: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+8:05 - 8:11: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+8:11 - 8:17: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+8:17 - 8:23: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+8:23 - 8:28: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+8:28 - 8:33: Camila Russo: That's super interesting because you also have Arbitrum, Optimism, Polygon, and then Base come in.
+8:33 - 8:37: Camila Russo: And it's not just attracting the same liquidity that's rotating between chains.
+8:37 - 8:40: Camila Russo: You're saying it's bringing completely new users, which is the holy grail.
+8:40 - 8:44: Camila Russo: That's what everyone wants, to bring new people into the crypto ecosystem.
+8:44 - 8:48: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+8:48 - 8:53: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+8:53 - 8:58: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+8:58 - 9:03: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+9:03 - 9:07: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+9:07 - 9:12: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+9:12 - 9:16: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+9:16 - 9:21: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+9:21 - 9:26: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+9:26 - 9:32: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+9:32 - 9:37: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+9:37 - 9:43: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+9:43 - 9:49: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+9:49 - 9:55: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+9:55 - 10:00: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+10:00 - 10:04: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+10:04 - 10:09: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+10:09 - 10:15: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+10:15 - 10:21: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+10:21 - 10:26: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+10:26 - 10:30: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+10:30 - 10:31: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+10:31 - 10:34: Camila Russo: Yeah. That's what everyone wants, to bring new people into the crypto ecosystem.
+10:34 - 10:49: Camila Russo: This is like the holy grail. Yes, so I'm I mean, that's why this is so interesting is that you also have Arbitrum, Optimism, Polygon, and then Base come in and it's not just attracting the same liquidity that's rotating between chains.
+10:49 - 10:52: Camila Russo: You're saying it's bringing completely new users, which is the holy grail.
+10:52 - 10:56: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+10:56 - 11:01: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+11:01 - 11:07: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+11:07 - 11:12: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+11:12 - 11:16: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+11:16 - 11:21: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+11:21 - 11:26: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+11:26 - 11:31: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+11:31 - 11:36: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+11:36 - 11:42: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+11:42 - 11:48: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+11:48 - 11:53: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+11:53 - 11:59: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+11:59 - 12:04: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+12:04 - 12:08: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+12:08 - 12:12: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+12:12 - 12:17: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+12:17 - 12:23: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+12:23 - 12:28: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+12:28 - 12:31: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+12:31 - 12:32: Camila Russo: Yeah.
+12:32 - 12:36: Camila Russo: So I mean, that's what everyone wants, to bring new people into the crypto ecosystem.
+12:36 - 12:42: Camila Russo: This is like the holy grail of bringing new people into the crypto ecosystem.
+12:42 - 12:48: Camila Russo: Yes, so I mean, that's why this is so interesting is that you also have Arbitrum, Optimism, Polygon, and then Base come in and it's not just attracting the same liquidity that's rotating between chains.
+12:48 - 12:53: Camila Russo: You're saying it's bringing completely new users, which is the holy grail.
+12:53 - 12:56: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+12:56 - 13:01: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+13:01 - 13:06: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+13:06 - 13:11: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+13:11 - 13:15: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+13:15 - 13:20: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+13:20 - 13:25: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+13:25 - 13:30: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+13:30 - 13:35: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+13:35 - 13:41: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+13:41 - 13:47: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+13:47 - 13:52: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+13:52 - 13:58: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+13:58 - 14:03: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+14:03 - 14:07: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+14:07 - 14:11: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+14:11 - 14:16: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+14:16 - 14:22: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+14:22 - 14:27: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+14:27 - 14:32: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+14:32 - 14:38: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+14:38 - 14:43: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+14:43 - 14:46: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+14:46 - 14:52: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+14:52 - 14:57: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+14:57 - 15:02: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+15:02 - 15:07: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+15:07 - 15:11: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+15:11 - 15:16: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+15:16 - 15:21: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+15:21 - 15:26: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+15:26 - 15:31: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+15:31 - 15:37: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+15:37 - 15:43: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+15:43 - 15:49: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+15:49 - 15:55: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+15:55 - 16:00: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+16:00 - 16:05: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+16:05 - 16:09: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+16:09 - 16:15: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+16:15 - 16:21: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+16:21 - 16:26: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+16:26 - 16:31: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+16:31 - 16:37: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+16:37 - 16:40: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+16:40 - 16:46: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+16:46 - 16:51: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+16:51 - 16:56: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+16:56 - 17:02: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+17:02 - 17:07: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+17:07 - 17:11: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+17:11 - 17:16: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+17:16 - 17:21: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+17:21 - 17:26: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+17:26 - 17:31: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+17:31 - 17:37: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+17:37 - 17:42: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+17:42 - 17:48: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+17:48 - 17:53: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+17:53 - 17:59: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+17:59 - 18:04: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+18:04 - 18:08: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+18:08 - 18:14: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+18:14 - 18:20: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+18:20 - 18:25: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+18:25 - 18:30: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+18:30 - 18:35: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+18:35 - 18:40: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+18:40 - 18:46: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+18:46 - 18:51: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+18:51 - 18:56: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+18:56 - 19:01: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+19:01 - 19:07: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+19:07 - 19:11: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+19:11 - 19:16: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+19:16 - 19:21: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+19:21 - 19:26: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+19:26 - 19:31: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+19:31 - 19:37: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+19:37 - 19:42: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+19:42 - 19:48: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+19:48 - 19:53: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+19:53 - 19:59: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+19:59 - 20:04: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+20:04 - 20:08: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+20:08 - 20:14: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+20:14 - 20:19: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+20:19 - 20:25: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+20:25 - 20:30: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+20:30 - 20:35: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+20:35 - 20:41: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+20:41 - 20:46: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+20:46 - 20:52: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+20:52 - 20:57: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+20:57 - 21:02: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+21:02 - 21:08: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+21:08 - 21:12: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+21:12 - 21:17: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+21:17 - 21:22: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+21:22 - 21:27: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+21:27 - 21:32: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+21:32 - 21:38: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+21:38 - 21:44: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+21:44 - 21:49: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+21:49 - 21:55: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+21:55 - 22:00: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+22:00 - 22:05: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+22:05 - 22:09: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+22:09 - 22:15: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+22:15 - 22:21: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+22:21 - 22:26: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+22:26 - 22:31: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+22:31 - 22:36: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+22:36 - 22:42: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+22:42 - 22:46: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+22:46 - 22:51: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+22:51 - 22:56: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+22:56 - 23:01: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+23:01 - 23:07: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+23:07 - 23:11: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+23:11 - 23:16: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+23:16 - 23:21: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+23:21 - 23:26: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+23:26 - 23:31: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+23:31 - 23:37: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+23:37 - 23:42: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+23:42 - 23:48: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+23:48 - 23:54: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+23:54 - 23:59: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+23:59 - 24:04: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+24:04 - 24:08: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+24:08 - 24:14: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+24:14 - 24:20: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+24:20 - 24:25: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+24:25 - 24:30: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+24:30 - 24:35: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+24:35 - 24:41: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+24:41 - 24:46: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+24:46 - 24:52: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+24:52 - 24:57: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+24:57 - 25:02: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+25:02 - 25:08: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+25:08 - 25:12: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+25:12 - 25:17: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+25:17 - 25:22: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+25:22 - 25:27: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+25:27 - 25:32: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+25:32 - 25:36: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+25:36 - 25:38: Soroban logo displayed.
+25:38 - 25:40: Text reading "CUTTING-EDGE" displayed.
+25:40 - 25:42: Text reading "SURFACE FOR INNOVATION" displayed.
+25:42 - 25:44: Text reading "NEW OPPORTUNITIES FOR DEVELOPERS" displayed.
+25:44 - 25:49: Multiple image frames showing people working on laptops, with text "FINANCIAL SERVICES" displayed.
+25:49 - 25:52: Image frames with different texts: "INCREASE CAPACITY", "WALLET" and flying coin symbol.
+25:52 - 25:55: An illustration of a group of people and various symbols of global communication, coding languages (C++, Rust, Python), and gears.
+25:55 - 25:59: Text "TRANSFORMATIVE UPGRADE" and "WOOHOO!" displayed along with images of computers and networks.
+25:59 - 26:00: Stellar logo displayed.
+26:00 - 26:05: Camila Russo: Super exciting and congratulations again, Alex, on a really successful launch of Aerodrome on Base.
+26:05 - 26:15: Camila Russo: And I think it's definitely going to be interesting to see how this space evolves with Base bringing in so many new users, because it's something that we've been struggling to do across different chains for so long.
+26:15 - 26:19: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+26:19 - 26:24: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+26:24 - 26:29: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+26:29 - 26:35: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+26:35 - 26:39: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+26:39 - 26:44: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+26:44 - 26:49: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+26:49 - 26:54: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+26:54 - 26:59: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+26:59 - 27:05: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+27:05 - 27:10: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+27:10 - 27:16: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+27:16 - 27:22: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+27:22 - 27:27: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+27:27 - 27:32: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+27:32 - 27:38: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+27:38 - 27:43: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+27:43 - 27:49: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+27:49 - 27:54: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+27:54 - 28:00: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+28:00 - 28:05: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+28:05 - 28:10: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+28:10 - 28:15: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+28:15 - 28:20: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+28:20 - 28:25: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+28:25 - 28:30: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+28:30 - 28:36: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+28:36 - 28:40: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+28:40 - 28:45: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+28:45 - 28:50: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+28:50 - 28:55: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+28:55 - 29:00: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+29:00 - 29:06: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+29:06 - 29:12: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+29:12 - 29:17: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+29:17 - 29:23: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+29:23 - 29:28: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+29:28 - 29:32: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+29:32 - 29:36: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+29:36 - 29:40: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+29:40 - 29:46: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+29:46 - 29:51: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+29:51 - 29:56: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+29:56 - 30:00: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+30:00 - 30:02: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+30:02 - 30:06: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+30:06 - 30:08: Alexander Cutler: Yeah, no, absolutely.
+30:08 - 30:13: Alexander Cutler: I mean, I think it's a few things. So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+30:13 - 30:19: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+30:19 - 30:24: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+30:24 - 30:28: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+30:28 - 30:33: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+30:33 - 30:38: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+30:38 - 30:43: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+30:43 - 30:48: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+30:48 - 30:54: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+30:54 - 30:59: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+30:59 - 31:05: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+31:05 - 31:10: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+31:10 - 31:16: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+31:16 - 31:21: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+31:21 - 31:25: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+31:25 - 31:30: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+31:30 - 31:36: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+31:36 - 31:42: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+31:42 - 31:47: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+31:47 - 31:53: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+31:53 - 31:58: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+31:58 - 32:01: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+32:01 - 32:06: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+32:06 - 32:11: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+32:11 - 32:16: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+32:16 - 32:22: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+32:22 - 32:26: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+32:26 - 32:31: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+32:31 - 32:36: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+32:36 - 32:41: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+32:41 - 32:46: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+32:46 - 32:52: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+32:52 - 32:58: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+32:58 - 33:04: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+33:04 - 33:08: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+33:08 - 33:12: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+33:12 - 33:16: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+33:16 - 33:20: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+33:20 - 33:25: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+33:25 - 33:31: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+33:31 - 33:37: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+33:37 - 33:42: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+33:42 - 33:47: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+33:47 - 33:51: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+33:51 - 33:56: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+33:56 - 34:00: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+34:00 - 34:05: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+34:05 - 34:11: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+34:11 - 34:16: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+34:16 - 34:20: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+34:20 - 34:25: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+34:25 - 34:30: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+34:30 - 34:35: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+34:35 - 34:40: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+34:40 - 34:46: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+34:46 - 34:52: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+34:52 - 34:57: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+34:57 - 35:03: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+35:03 - 35:08: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+35:08 - 35:12: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+35:12 - 35:17: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+35:17 - 35:22: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+35:22 - 35:28: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+35:28 - 35:33: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+35:33 - 35:38: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+35:38 - 35:43: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+35:43 - 35:47: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+35:47 - 35:50: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+35:50 - 35:55: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+35:55 - 36:00: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+36:00 - 36:06: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+36:06 - 36:11: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+36:11 - 36:15: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+36:15 - 36:20: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+36:20 - 36:25: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+36:25 - 36:30: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+36:30 - 36:35: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+36:35 - 36:41: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+36:41 - 36:47: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+36:47 - 36:52: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+36:52 - 36:58: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+36:58 - 37:03: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+37:03 - 37:08: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+37:08 - 37:11: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+37:11 - 37:12: Young man: Hey everyone, I'm Illya,
+37:12 - 37:15: Young man: and I'm inviting everyone to Bangkok, November 9 to 11.
+37:15 - 37:16: Video glitch.
+37:16 - 37:18: Computer voice: duped into thinking anything decentralized.
+37:18 - 37:23: Computer voice: was ever going to work, there's a better way. Stop wasting your time with all this blockchain.
+37:23 - 37:29: Computer voice: And go back to the norm. Get a latte and stop trying to change the world.
+37:29 - 37:32: Computer voice: Oh, and this thing in November, redacted, the hackathon.
+37:32 - 37:37: Computer voice: There are cushy office jobs, everything is working as it should.
+37:37 - 37:39: Video glitch.
+37:39 - 37:48: Young man: For our special event, we're going to dive into AI, Web3, Chain Abstraction, Decentralization, and User-owned AI.
+37:48 - 37:52: Terminal window showing text: "MAXIS NEED NOT APPLY" "An IRL Movement" "REDACTEDBANGKOK.AI" "[AVANI+ BANGKOK]" "[9-11 NOVEMBER]"
+37:52 - 38:00: Camila Russo: And I think that's something that we've been struggling to do across different chains for so long.
+38:00 - 38:04: Camila Russo: So super exciting and congratulations again, Alex, on a really successful launch of Aerodrome on Base.
+38:04 - 38:08: Camila Russo: And I think it's definitely going to be interesting to see how this space evolves with Base.
+38:08 - 38:15: Camila Russo: Yeah. That's what everyone wants, to bring new people into the crypto ecosystem.
+38:15 - 38:20: Camila Russo: This is like the holy grail of bringing new people into the crypto ecosystem.
+38:20 - 38:24: Camila Russo: Yes, so I mean, that's why this is so interesting is that you also have Arbitrum, Optimism, Polygon, and then Base come in and it's not just attracting the same liquidity that's rotating between chains.
+38:24 - 38:28: Camila Russo: You're saying it's bringing completely new users, which is the holy grail.
+38:28 - 38:33: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+38:33 - 38:38: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+38:38 - 38:43: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+38:43 - 38:48: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+38:48 - 38:52: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+38:52 - 38:57: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+38:57 - 39:02: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+39:02 - 39:07: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+39:07 - 39:12: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+39:12 - 39:18: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+39:18 - 39:24: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+39:24 - 39:29: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+39:29 - 39:35: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+39:35 - 39:40: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+39:40 - 39:44: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+39:44 - 39:48: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+39:48 - 39:53: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+39:53 - 39:59: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+39:59 - 40:04: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+40:04 - 40:09: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+40:09 - 40:15: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+40:15 - 40:20: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+40:20 - 40:25: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+40:25 - 40:29: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+40:29 - 40:35: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+40:35 - 40:40: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+40:40 - 40:46: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+40:46 - 40:50: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+40:50 - 40:55: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+40:55 - 41:00: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+41:00 - 41:05: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+41:05 - 41:10: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+41:10 - 41:16: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+41:16 - 41:22: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+41:22 - 41:27: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+41:27 - 41:32: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+41:32 - 41:38: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+41:38 - 41:43: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+41:43 - 41:47: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+41:47 - 41:52: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+41:52 - 41:58: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+41:58 - 42:03: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+42:03 - 42:08: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+42:08 - 42:14: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+42:14 - 42:19: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+42:19 - 42:24: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+42:24 - 42:30: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+42:30 - 42:35: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+42:35 - 42:40: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+42:40 - 42:46: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+42:46 - 42:50: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+42:50 - 42:55: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+42:55 - 43:00: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+43:00 - 43:05: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+43:05 - 43:10: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+43:10 - 43:16: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+43:16 - 43:22: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+43:22 - 43:27: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+43:27 - 43:33: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+43:33 - 43:38: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+43:38 - 43:43: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+43:43 - 43:47: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+43:47 - 43:52: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+43:52 - 43:58: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+43:58 - 44:03: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+44:03 - 44:09: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+44:09 - 44:14: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+44:14 - 44:19: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+44:19 - 44:24: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+44:24 - 44:29: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+44:29 - 44:34: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+44:34 - 44:40: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+44:40 - 44:45: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+44:45 - 44:49: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+44:49 - 44:54: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+44:54 - 44:59: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+44:59 - 45:04: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+45:04 - 45:09: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+45:09 - 45:15: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+45:15 - 45:21: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+45:21 - 45:26: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+45:26 - 45:32: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+45:32 - 45:37: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+45:37 - 45:41: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+45:41 - 45:45: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+45:45 - 45:49: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+45:49 - 45:55: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+45:55 - 46:00: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+46:00 - 46:05: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+46:05 - 46:11: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+46:11 - 46:16: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+46:16 - 46:20: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+46:20 - 46:25: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+46:25 - 46:30: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+46:30 - 46:36: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+46:36 - 46:41: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+46:41 - 46:45: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+46:45 - 46:50: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+46:50 - 46:55: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+46:55 - 47:00: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+47:00 - 47:05: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+47:05 - 47:11: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+47:11 - 47:17: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+47:17 - 47:22: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+47:22 - 47:28: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+47:28 - 47:33: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+47:33 - 47:38: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+47:38 - 47:42: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+47:42 - 47:47: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+47:47 - 47:53: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+47:53 - 47:58: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+47:58 - 48:03: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+48:03 - 48:09: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+48:09 - 48:13: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+48:13 - 48:17: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+48:17 - 48:22: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+48:22 - 48:27: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+48:27 - 48:32: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+48:32 - 48:38: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+48:38 - 48:42: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+48:42 - 48:47: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+48:47 - 48:52: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+48:52 - 48:57: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+48:57 - 50:04: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem. So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there. They're all very Ethereum centric, they're all coming from Ethereum. And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains. When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto. So it's not just the same users with the same capital that are moving around between chains. It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors. So I think that's something really special and what makes Base such a like a unique place to build on. And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there. And also like, I think another big thing that they've really leaned into is building on there. There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain. They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed. We want you to like thrive, we want you to, like, bring new users into the ecosystem. And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing. So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+50:04 - 50:05: Alexander Cutler: So Alex, thanks so much for joining me.
+50:05 - 50:06: Camila Russo: And that's super interesting.
+50:06 - 50:08: Camila Russo: You said Base is bringing completely new users to crypto.
+50:08 - 50:09: Camila Russo: That's the holy grail.
+50:09 - 50:11: Camila Russo: That's what everybody wants in this space.
+50:11 - 50:19: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things. First and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3. They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain where, you know, they're really heavily focused on the Ethereum ecosystem and building up that. They're really focused on like a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself. So I think that's super important just like from a marketing perspective. I think what they've done with friend.tech, what they've done with some of these other things have really attracted a lot of new users who, like, you know, a lot of them don't even know that they're interacting with crypto. They just know that it's just this new cool thing that they're using to trade influence or whatever. And so I think that's super important just for like new user onboarding. And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism is that it's a new ecosystem. So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there. They're all very Ethereum centric, they're all coming from Ethereum. And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains. When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto. So it's not just the same users with the same capital that are moving around between chains. It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors. So I think that's something really special and what makes Base such a like a unique place to build on. And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there. And also like, I think another big thing that they've really leaned into is building on there. There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain. They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed. We want you to like thrive, we want you to, like, bring new users into the ecosystem. And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing. So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+50:19 - 50:20: Alexander Cutler: Yeah, no, absolutely.
+50:20 - 50:25: Alexander Cutler: I mean, I think it's a few things. First and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+50:25 - 50:31: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+50:31 - 50:36: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+50:36 - 50:40: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+50:40 - 50:45: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+50:45 - 50:50: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+50:50 - 50:55: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+50:55 - 51:01: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+51:01 - 51:06: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+51:06 - 51:12: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+51:12 - 51:17: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+51:17 - 51:22: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+51:22 - 51:27: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+51:27 - 51:31: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+51:31 - 51:36: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+51:36 - 51:41: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+51:41 - 51:47: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+51:47 - 51:52: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+51:52 - 51:57: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+51:57 - 52:02: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+52:02 - 52:06: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+52:06 - 52:10: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+52:10 - 52:15: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+52:15 - 52:20: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+52:20 - 52:26: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+52:26 - 52:31: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+52:31 - 52:35: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+52:35 - 52:40: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+52:40 - 52:45: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+52:45 - 52:50: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+52:50 - 52:56: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+52:56 - 53:01: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+53:01 - 53:07: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+53:07 - 53:12: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+53:12 - 53:18: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+53:18 - 53:23: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+53:23 - 53:28: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+53:28 - 53:32: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+53:32 - 53:38: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+53:38 - 53:44: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+53:44 - 53:49: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+53:49 - 53:54: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+53:54 - 53:59: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+53:59 - 54:03: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+54:03 - 54:07: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+54:07 - 54:12: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+54:12 - 54:17: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+54:17 - 54:23: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+54:23 - 54:28: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+54:28 - 54:32: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+54:32 - 54:37: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+54:37 - 54:42: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+54:42 - 54:47: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+54:47 - 54:53: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+54:53 - 54:58: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+54:58 - 55:04: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+55:04 - 55:09: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+55:09 - 55:15: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+55:15 - 55:20: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+55:20 - 55:25: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+55:25 - 55:29: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+55:29 - 55:35: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+55:35 - 55:41: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+55:41 - 55:46: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+55:46 - 55:51: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+55:51 - 55:56: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+55:56 - 56:01: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
+56:01 - 56:05: Alexander Cutler: So I think that's another big differentiator that has made Base successful for attracting both users and developers.
+56:05 - 56:10: Alexander Cutler: Yeah, no, absolutely. I mean, I think it's a few things.
+56:10 - 56:15: Alexander Cutler: So, you know, first and foremost, I think Base has done an amazing job positioning themselves as, you know, this kind of new neutral chain for Web3.
+56:15 - 56:20: Alexander Cutler: They've done a really, really good job of saying, like, hey, we're not going to be like an OP chain or an Arbitrum chain, where, you know, they're really heavily focused on the Ethereum ecosystem and building up that.
+56:20 - 56:26: Alexander Cutler: They're really focused on, like, a new set of users that they can bring into the ecosystem that have nothing to do with crypto itself.
+56:26 - 56:30: Alexander Cutler: So I think that's super important, just like from a marketing perspective.
+56:30 - 56:35: Alexander Cutler: I think what they've done with friend.tech, what they've done with some of these other things, have really attracted a lot of new users who like, you know, a lot of them don't even know that they're interacting with crypto.
+56:35 - 56:40: Alexander Cutler: They just know that it's just this new cool thing that they're using to trade influence or whatever.
+56:40 - 56:45: Alexander Cutler: And so I think that's super important just for like new user onboarding.
+56:45 - 56:51: Alexander Cutler: And also just like when you're thinking about a new chain, what the primary difference is between, like, say, Base and Polygon or an Arbitrum or Optimism, is that it's a new ecosystem.
+56:51 - 56:56: Alexander Cutler: So when you're looking at something like an Arbitrum or an Optimism, like the vast majority of the liquidity and the developers that are building on there.
+56:56 - 57:02: Alexander Cutler: They're all very Ethereum centric, they're all coming from Ethereum.
+57:02 - 57:07: Alexander Cutler: And so, you know, what that means is that the liquidity, it's just really fragmented and it's all just kind of like the same liquidity just moving around between different chains.
+57:07 - 57:13: Alexander Cutler: When you look at Base, what we're seeing is that a lot of the liquidity is actually new to crypto.
+57:13 - 57:18: Alexander Cutler: So it's not just the same users with the same capital that are moving around between chains.
+57:18 - 57:22: Alexander Cutler: It's actually attracting new users into the ecosystem because the applications that are building on there are just attracting them in from all sorts of different vectors.
+57:22 - 57:27: Alexander Cutler: So I think that's something really special and what makes Base such a like a unique place to build on.
+57:27 - 57:32: Alexander Cutler: And then secondly, just from a developer perspective, they've done an excellent job of just making it very easy to build on there.
+57:32 - 57:38: Alexander Cutler: And also like, I think another big thing that they've really leaned into is building on there.
+57:38 - 57:43: Alexander Cutler: There's not this like super high tax of like, hey, we're an Arbitrum, we're an Optimism, like, you're going to pay us 10% of your tokens for just existing on our chain.
+57:43 - 57:48: Alexander Cutler: They're trying to be much more neutral in a sense and say, hey, like, we want you to succeed.
+57:48 - 57:54: Alexander Cutler: We want you to like thrive, we want you to, like, bring new users into the ecosystem.
+57:54 - 57:58: Alexander Cutler: And we're not going to like try to tax you out the wazoo or like, try to pull, like, any type of economic rent just for you existing.
