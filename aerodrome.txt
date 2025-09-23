@@ -476,3 +476,486 @@ The Endgame: They repeatedly state that their model is the "endgame" for DEXs be
 November 12th, 2025: They are heavily promoting a "Save the Date" for an event in New York City, suggesting major announcements and the next phase of their strategy will be unveiled then.
 
 Disrupting Incumbents: The core belief is that by being more efficient and redistributing 100% of value, their model will outcompete and disrupt established players like Uniswap and Curve.
+
+
+import SVG from "react-inlinesvg";
+
+# Liquidity Pools
+
+The core functionality of Aerodrome Finance is to allow users to exchange
+tokens in a secure way, with low fees and low slippage.
+
+Slippage is the difference between the current market price of a token and the
+price at which the actual exchange/swap is executed. This difference could
+result in a smaller amount (higher price paid) or a higher amount (smaller
+price paid) of desired tokens returned from a swap.
+
+To provide access to the best rates on the market, we identified two types of
+tokens:
+
+- correlated - for example _stable coins_ (`$USDC`, `$DAI`, etc.)
+- uncorrelated - for example `$AERO` and `$BTC`
+
+Aerodrome Finance offers two different liquidity pool types based on token pair needs, _Stable
+Pools_ and _Volatile Pools_. Aerodrome supports custom factories, so that new pool types can always be integrated.
+
+The protocol router evaluates both pool types to determine the most efficient price quotation
+and trade execution route available. To protect against flashloan attacks, the router will use
+30-minute TWAPs (time-weighted average prices). The router doesn't require _upkeep_ (external maintenance).
+
+The _deeper_ the liquidity of a given pool (higher value locked), the smaller the slippage it will offer.
+
+## Stable Pools
+
+Stable pools are designed for tokens which have little to no
+volatility. This means that the formula used for pricing the tokens allows for
+low slippage even on large traded volumes.
+
+> x³y + y³x ≥ k
+
+## Volatile Pools
+
+Volatile pools are designed for tokens with high price volatility.
+These pools use a generic AMM formula.
+
+> x × y ≥ k
+
+## A visual representation of the formulas
+
+The mathematical formulas are used to keep the total pool liquidity the same at all times.
+
+Below, you can find a visual comparison between the stable (red) and volatile (blue)
+AMM pricing equations, where:
+
+- `x` is the amount of first token in the pool
+- `y` is the amount of second token in the same pool
+- `k` is a fixed constant
+
+<SVG
+  src="/svg/docs/graph-liquidity.svg"
+  className="w-full max-w-full h-auto mt-4"
+/>
+
+## Concentrated Pools
+
+Concentrated liquidity pools require the liquidity
+to be deposited within a specific price range and uses ticks (equally
+spaced price points) to define the range boundaries. The identifiers
+for these pools reflect their tick space. These pools require
+maintenance or automated liquidity management (ALM).
+
+## Concentrated Liquidity Tick Spacing
+
+In Velodrome's concentrated liquidity pools, the concept of **tick spacing** is used.
+This refers to the minimum price movement between liquidity ranges.
+
+Stable token pools use a price range boundary of 0.5% (tick space 50) for tokens like USDC, DAI, LUSD.
+
+Volatile token pools use a price range boundary of 2% (tick space 200) for tokens like OP and WETH.
+
+For highly correlated tokens like stable coins and liquid staked tokens,
+a price range boundary of 0.01% (tick space 1) is available.
+
+For emerging tokens like AERO and VELO, a price range boundary of 20% (tick space 2000)
+is available to reduce liquidity pool re-balance needs.
+
+Concentrated liquidity pools explain what they are in their symbol:
+
+> CL1-wstETH/WETH
+
+CL1 says that this is a concentrated pool with 1 tick spacing,
+suggesting the pool token prices are closely correlated.
+
+## Concentrated Liquidity Pool Fees
+
+Pool swap fees are redesigned to be adjusted independently from the pool type.
+Fees can now reflect partner protocols needs and can be adjusted based on the market's volatility.
+To reduce operational overhead, we are working on a dynamic fee module that will adjust itself on demand.
+
+## Calculating APRs
+
+The Annual Percentage Rate (APR) for liquidity pools in Aerodrome is calculated
+differently for basic and concentrated pools.
+
+For basic pools, the APR is calculated using the total staked liquidity.
+
+For concentrated pools, the APR is calculated using the total staked liquidity
+within the pool current price range (active tick) and the surrounding (above and below)
+price ranges (+/-1 tick from current tick).
+
+
+# Relay
+
+Relay was designed to automate the process of managing veNFTs:
+
+- users deposit their veNFTs into the available Relay strategy
+- all the voting and claiming is optimally done by the strategy automation
+- rewards are converted into the strategy asset or compounded back increasing
+  the deposited veNFT balance, all as part of the automation!
+
+{
+<div className="text-amber bg-amber/10 p-4 rounded-xl">
+  Depositing into a strategy will extend your veNFT unlock date to maximum!
+</div>
+}
+
+Withdrawal of the veNFTs is possible only after the first week. Please make
+sure the automation was run before you withdraw, the latest update date
+should be recent.
+
+### Compounders
+
+Compounding strategies are designed to claim all the rebase and the voting
+rewards. The rewards are converted and locked back into the veNFT balances.
+
+This strategy was designed for users who want to increase their voting power!
+
+### Convertors
+
+Convertor strategies are designed to claim all the rebases and the voting
+rewards. While the rebases are compounded back into the veNFTs, the rewards
+are converted into the strategy asset (eg. USDC, OP, ETH) and are shown
+for every depositor when available for claiming.
+
+### Relays run by the Protocol
+
+The **veAERO MAXI** Relay is a compounder strategy that does the following:
+
+- Votes to optimally achieve the maximum rewards available
+- Claims the rebase
+- Claims & converts rewards into Aero
+- Locks all converted Aero increasing the locked amount of those who deposited into the Relay
+
+### Relays run by or for the Protocol Partners
+
+These Relay strategies are either run by or for the protocol partners,
+usually other protocols with the goal of supporting the partner liquidity pools.
+
+These strategies generally vote to support their own liquidity and
+thus those who deposit into those pools.
+
+In comparison to the veAERO Maxi, these relays will likely achieve smaller rewards,
+but more consistent rewards for their pools.
+
+Partner protocols can request a Relay strategy, this will soon require an open governance
+proposal to be voted and passed by the veAERO voters.
+
+Compounder strategy:
+
+- Votes on the partners chosen pool to direct emissions
+- Claims the rebase
+- Claims & converts rewards into Aero
+- Locks all converted Aero increasing the locked amount of the partners veNFT Relay position
+
+### Architecture
+
+The strategies are simple smart contracts that operate a specially managed
+veNFT, also known as (m)veNFT.
+
+The (m)veNFTs can be minted or deactivated by the protocol Governor and carry
+no voting power initially, instead, these aggregate the voting power of any
+regular deposited veNFTs. Once withdrawn, the regular veNFTs receive a share of
+the aggregated voting power and the unlock date is set to maximum.
+
+Owners of these (m)veNFTs can vote, claim rebases and collect rewards. That is
+why these are usually granted to protocols or managers of the Relay strategies.
+
+In case of an issue with one of the (m)veNFTs, these get deactivated and the
+depositors will have to withdraw safely their veNFTs.
+
+Relay was designed to solve the partner protocol needs and provide a flexible
+way to build strategies on top of (m)veNFTs. Relay strategies are automated and
+operated by a decentralized network, with the exception of the voting, which is
+handled by the (m)veNFT managers.
+
+### Governance
+
+The depositors are still able to exercise their governance voting power. The
+Governor will report the up-to-date locked amount of the veNFTs managed by a
+Relay strategy.
+
+# Voting
+
+$veAERO holders decide which liquidity pools receive $AERO emissions. In return, voters receive 100% of the trading fees and bribes collected from the liquidity pool they vote for.
+
+## Instructions
+
+Distribute 100% of your Lock's (veNFT) vote-power among your preferred pools and Cast your vote. Repeat for each of your Locks (veNFTs). Unallocated vote-power (if {'<'} 100%) will be split proportionally among the selected pools. Each Lock (veNFT) can only cast votes once per epoch.
+
+If you increased your Lock's (veNFT) balance during the epoch, recast your vote to allocate your vote-power in full. Unchanged votes carry over into the next epoch.
+
+## Timeline
+
+Votes for the next epoch, are due by Wednesday at 23:00 UTC, 1 hour before next epoch begins. During the following two hours, no voting operations will take place as this time is reserved for protocol operations/automations.
+
+## Rewards
+
+Voting rewards for a given epoch will appear in your Dashboard after the epoch change on Thursday at 00:00 UTC. Rebase rewards for new locks will appear after the second epoch change.
+
+import SVG from "react-inlinesvg";
+
+# Voter Rewards
+
+## Fees
+
+Token pairs capture fees from the volume enabled by the liquidity in each pool.
+
+The fees collected by staked LPs the previous epoch are deposited as incentives
+for the current voting epoch.
+
+Fee rewards are distributed in the same tokens as the liquidity pool tokens
+these originate from (e.g., if the pool is `vAMM-AERO/USDC` the distributed
+tokens are `$AERO` and `$USDC`).
+
+Fee rewards are distributed as accrued and can be claimed at any time. Fee rewards deposited as voter incentives are available for claim after the epoch changes (Thursday 00:00 UTC), and are distributed proportionally to the voting power cast by a voter (`$veAERO`).
+
+## Incentives
+
+In addition to fee rewards, liquidity pools can receive external voter rewards from protocols or other participants (known as _incentives_). Incentives can be deposited for _whitelisted_ tokens and are distributed _only_ to voters on that pool, proportionally to their share of pool votes.
+
+These rewards are available for claim after the epoch changes (Thursday 00:00 UTC), and are distributed proportionally to the voting power cast by a voter (`$veAERO`).
+
+## Rewards claim
+
+Rebase rewards are claimable after a new epoch has started (Thursday 00:00 UTC).
+
+An example of incentives, voting, and rewards claim timeline:
+
+- A new epoch starts Thursday (00:00 UTC)
+- Incentives are deposited at any point in the epoch
+- Voters vote for their preferred pools
+- Once the next epoch arrives (the following Thursday), users are able to claim rewards
+
+<SVG
+  src="/svg/docs/chart-feesbribes.svg"
+  className="w-full max-w-full h-auto mt-4"
+/>
+
+
+Has Aerodrome Finance Become the Leading DeFi Protocol on Base?
+Updated On 25 August 2025
+
+|
+
+Published On 22 August 2025
+
+DeFi
+
+Has Aerodrome Finance Become the Leading DeFi Protocol on Base?
+With each new market cycle, Decentralized Finance (DeFi) protocols face a critical test: adapt to changing priorities or risk being left behind. In the current cycle, the focus within DeFi has shifted from short-term yield farming toward sustainable yield optimization, greater capital efficiency, and infrastructure designed to attract institutional participation. Within this evolving landscape, Aerodrome Finance ($AERO), a leading decentralized exchange (DEX) of the Base blockchain ecosystem, has distinguished itself through rapid growth and technical innovation, raising the question: could it become one of the standout protocols defining this cycle of DeFi?
+
+DWF Ventures shares a deep dive analysis of this project as a defining protocol of this cycle.
+
+Introduction
+Launched on Base in August 2023, Aerodrome is a decentralized exchange (DEX) built on an Automated Market Maker (AMM) framework and powered by a ve(3,3) tokenomics model. This design combines the benefits of continuous liquidity provision with long-term incentive alignment. Through its vote-escrow (ve) mechanism, users can lock the native $AERO token to receive veAERO, granting them governance rights, a share of protocol fees, and the ability to direct liquidity incentives toward specific pools. This structure creates a competitive environment where protocols and liquidity providers vie for voting power, resulting in deep, sustainable liquidity. 
+
+Since its launch, Aerodrome has cemented itself as the leading DEX on one of the fastest-growing Layer 2 networks, capturing close to 50% of total DEX volume on Base, with all-time trading volume close to surpassing $250 billion. This base of stable liquidity and growing market share is reflected in Aerodrome’s current on-chain metrics.
+
+Aerodrome Current Metrics: TVL, Trading Volume, and Revenue Performance
+As of August 2025, Aerodrome Finance holds approximately $602 million in Total Value Locked (TVL), entirely on Base, underscoring its position as the chain’s primary liquidity hub. This capital supports one of the most active decentralized exchanges in the ecosystem, with daily trading volumes averaging around $810 million. Such activity translates into annualized swap revenue of roughly $202 million, about $550,000 per day, ranking Aerodrome among the highest-revenue DEXs in DeFi.
+
+List of top protocols by revenue as of August 22, with Aerodrome ranked 12th. Source: DeFiLlama
+List of top protocols by revenue as of August 22, with Aerodrome ranked 12th. Source: DeFiLlama
+Over the last 30 days alone (July 23–August 22, 2025), Aerodrome has processed $21.85 billion in trading volume, bringing its cumulative all-time volume close to $238 billion. Aerodrome’s growth not only reflects the expansion of the Base network but also highlights the protocol’s ability to consistently capture order flow and generate sustainable revenue in an increasingly competitive DeFi landscape.
+
+Table of protocol rankings showing metrics for TVL, fees, revenue, and DEX volume as of August 22, 2025. Source: DeFiLlama.
+Table of protocol rankings showing metrics for TVL, fees, revenue, and DEX volume as of August 22, 2025. Source: DeFiLlama.
+Protocol Upgrades
+Protocol Upgrades
+Aerodrome’s ability to maintain its position as the leading DEX on Base stems from a series of upgrades that have strengthened its infrastructure and user experience. These include:
+
+Flashblocks introduced a substantial technical enhancement, delivering up to 10x faster execution speeds, tighter pricing, and improved capital efficiency for traders and liquidity providers. 
+ALM V2, an advanced liquidity management system, further optimized how liquidity is deployed, improving pool performance, bolstering security, and streamlining reward distribution, making it easier for Liquidity Providers (LPs) to earn effectively without manual adjustments.
+In addition, integration with Coinbase’s DEX interface has made Aerodrome directly accessible to one of the largest user bases in crypto, lowering barriers to on-chain trading and encouraging broader adoption. 
+Finally, an upcoming feature, the Pool Launcher Tool, will introduce permissionless pool creation, enabling projects of any size to deploy and manage liquidity pools efficiently. Once live, this tool is expected to broaden access to Aerodrome’s trading infrastructure and encourage more teams to build on Base, further establishing Aerodrome as the network’s core liquidity hub.
+These upgrades and integrations have translated into tangible results, especially when Aerodrome’s performance is compared to other leading decentralized exchanges.
+
+Aerodrome Performance Compared to Competitors
+Aerodrome’s recent performance highlights its ability to achieve significant results with comparatively fewer resources, setting it apart from other leading decentralized exchanges. In the seven days leading up to August 22, 2025, the protocol generated approximately $4.6 million in revenue, exceeding the combined revenue of PancakeSwap, Meteora, and Pump.fun, despite each of these platforms maintaining a higher Total Value Locked (TVL). This revenue strength demonstrates Aerodrome’s ability to efficiently convert crypto liquidity into protocol earnings.
+
+Table of protocol rankings showing metrics for TVL, fees, revenue, and DEX volume as of August 22, 2025. Source: DeFiLlama.
+Table of protocol rankings showing metrics for TVL, fees, revenue, and DEX volume as of August 22, 2025. Source: DeFiLlama.
+Trading activity highlights Aerodrome’s strength relative to other leading DEXs. Daily volumes on Aerodrome now exceed $950 million, placing it ahead of every other decentralized exchange on Base. Over the past seven days (August 14–21, 2025), Aerodrome generated approximately $4.6 million in fees, outpacing both Curve Finance and PancakeSwap despite operating with less than one-third of their TVL.
+
+Capital efficiency further distinguishes Aerodrome from its peers. It achieved nearly twice the trading volume of Uniswap’s top pool while using roughly half the amount of TVL. For liquidity providers, this means higher productivity of their assets, while for the protocol, it enables competitive trading conditions without requiring massive capital reserves.
+
+Altogether, these figures highlight how effective Aerodrome’s recent improvements have been in driving growth and how successfully the team has capitalized on them.
+
+This strong competitive position is supported by Aerodrome’s underlying tokenomics, which are designed to continuously align incentives and drive sustained growth.
+
+Flywheel Mechanics: How Aerodrome Aligns Stakeholders
+Aerodrome’s ve(3,3) model creates a self-reinforcing cycle that benefits token holders, liquidity providers, and protocols.
+
+Users lock $AERO to receive veAERO, a vote-escrowed NFT granting governance rights, a share of protocol fees, and voting power over where new $AERO emissions are directed. External projects can offer incentives to veAERO holders to secure votes for their pools, ensuring deeper liquidity. Liquidity providers in these pools earn trading fees, $AERO emissions, and potential bribes, making participation attractive.
+
+This system aligns incentives across all participants: locked tokens increase voting power, voting directs rewards to active pools, and greater liquidity drives higher volume and fees, fueling the cycle further. The result is a sustainable feedback loop that supports Aerodrome’s long-term growth.
+
+Aerodrome’s flywheel mechanism. Source: DWF Ventures 
+Aerodrome’s flywheel mechanism. Source: DWF Ventures
+While Aerodrome’s tokenomics provide a strong internal growth engine, external factors have also played a key role, most notably its integration with Coinbase. 
+
+Coinbase Integration
+Another strong reason for Aerodrome’s recent growth has been Coinbase’s integration of the DEX into its main application. This development connects Aerodrome directly to one of the world’s largest retail and institutional crypto user bases, enabling Coinbase customers to trade on Aerodrome seamlessly from within the app. By removing the need for separate wallets or third-party interfaces, the integration lowers barriers to entry for on-chain trading and introduces a broader audience to DeFi on Base.
+
+Coinbase has further strengthened this integration by offering feeless trading on Aerodrome through Coinbase One, its premium subscription service. This initiative incentivizes more users to interact with Aerodrome’s liquidity pools, boosting trading activity and liquidity depth.
+
+Looking forward, Coinbase’s strategy to expand wrapped assets, such as $cbSOL and $cbSUI, could significantly increase the range of assets available on Base. As the leading DEX on the network, Aerodrome stands to benefit from this influx of liquidity and trading volume, positioning it as a primary venue for both retail and institutional flows within the Base ecosystem.
+
+Institutional Exposure: Aerodrome’s Role in Base’s Growth
+As the leading DEX on Base, Aerodrome is positioned to benefit from the network’s increasing institutional adoption. Base’s infrastructure, backed by Coinbase and aligned with U.S. regulatory standards, has attracted interest from major players such as J.P. Morgan and is emerging as a gateway for “Compliant DeFi”, on-chain markets accessible to regulated entities.
+
+In this environment, Aerodrome functions as Base’s primary liquidity hub, providing the depth and efficiency needed to support institutional activity. As adoption of Base expands, Aerodrome is likely to play a central role in facilitating and scaling this influx of capital.
+
+Conclusion
+While Aerodrome Finance has already achieved remarkable growth, multiple factors suggest this trajectory is far from over. Its ve(3,3) Flywheel model continues to drive value to token holders, liquidity providers, and protocols alike; its high capital efficiency enables it to compete with and outperform larger peers; and its integration with Coinbase opens the door to mainstream and institutional adoption on Base. Together, these elements position Aerodrome as one of the defining DeFi protocols of this cycle.
+
+The DWF Ventures team sees Aerodrome’s progress as a reflection of the broader potential of the Base ecosystem, actively supporting projects building innovative, high-impact solutions in this space. 
+
+If you’re working on something that could shape the future of on-chain finance, feel free to reach out to our crypto ventures team.
+
+Aerodrome Finance is the leading decentralized exchange on Base, Coinbase’s Layer-2 network, offering token swaps, liquidity provision, and governance powered by the AERO token and its vote-escrowed version, veAERO. With Velodrome V2 tech, emissions-based incentives, and a robust reward structure—including bribes and protocol fee sharing—Aerodrome plays a central role in building deep, sustainable liquidity for the entire Base DeFi ecosystem.
+
+Curious about Aerodrome Finance but not sure where to start? You're not alone. This DeFi protocol has been gaining significant attention among Base network users, and for good reason. Let's break down what Aerodrome Finance is, how it works, and why it matters in the expanding Base blockchain ecosystem.
+
+Understanding Aerodrome Finance Basics
+Aerodrome Finance is a decentralized exchange (DEX) built specifically for the Base network. Launched in August 2023, it functions as the primary liquidity hub for Base, Coinbase's layer-2 blockchain solution.
+
+Key point: Aerodrome isn't just another DEX – it's designed to be the central infrastructure for liquidity on Base, similar to what Velodrome is for the Optimism network.
+
+At its core, Aerodrome is built on Velodrome V2 technology, making it essentially the "Velodrome of Base." This connection isn't coincidental – both protocols share the same development team and underlying technology, but serve different networks.
+
+The AERO Token Explained
+The native token of the platform is AERO, which serves several important functions:
+
+Governance rights: When locked as veAERO
+Voting power: For directing liquidity incentives
+Value accrual: Through protocol fees
+Liquidity incentives: Distributed to liquidity providers
+AERO has a maximum supply of 100 million tokens, with a distribution model designed to incentivize long-term participation in the ecosystem.
+
+How AERO tokens are distributed:
+
+20% allocated to the team and investors
+5% for early liquidity mining
+75% distributed through ongoing emissions
+Token emissions follow an epoch-based rewards system, with approximately 2 million AERO distributed weekly in the initial phase, gradually decreasing over time.
+
+veAERO Governance: The Power Behind Aerodrome
+When users lock their AERO tokens, they receive veAERO (vote-escrowed AERO) in return. This mechanism is central to Aerodrome's governance model.
+
+What makes veAERO special:
+
+Longer lock periods (up to 4 years) grant more veAERO per AERO locked
+veAERO holders vote on which liquidity pools receive AERO emissions
+veAERO balances decay over time, encouraging active governance
+Holders earn a share of protocol fees (currently 25% of all swap fees)
+This model creates alignment between governance participants and the protocol's long-term health. By directing emissions to valuable trading pairs, veAERO holders can significantly influence where liquidity flows within the Base ecosystem.
+
+How Aerodrome Works as an AMM
+As an Automated Market Maker (AMM), Aerodrome allows users to trade tokens without traditional order books. Instead, it uses liquidity pools where assets are pre-funded.
+
+Aerodrome offers two types of pools:
+
+Classic pools: Traditional constant product pools (similar to Uniswap V2)
+Stable pools: Optimized for trading between assets that should maintain similar prices
+What sets Aerodrome apart from many other DEXs is its direct integration of liquidity incentives into its core design. The protocol uses "bribes" and vote-directed emissions to create a self-sustaining liquidity ecosystem.
+
+Liquidity Provider Incentives: The Reward Structure
+Providing liquidity on Aerodrome can be rewarding, but it's important to understand the different ways you can earn:
+
+Trading fees: LPs earn a portion of the 0.25% fee charged on all swaps
+AERO emissions: Receive AERO tokens based on veAERO voting
+Bribes: External protocols can offer rewards to veAERO voters for directing emissions to their pools
+This multi-layered incentive structure creates what some call a "flywheel effect" – more liquidity leads to more trading, which increases fees and attracts more liquidity providers.
+
+Important note: While providing liquidity can be profitable, it comes with risks including impermanent loss. Do your own research before committing funds.
+
+Aerodrome's Role in the Base Ecosystem
+As the primary liquidity hub for Base, Aerodrome plays a crucial role in the broader DeFi ecosystem on this emerging network.
+
+Base, being backed by Coinbase, has attracted significant attention and capital since its launch. Aerodrome provides the infrastructure needed for other protocols to establish liquid markets for their tokens.
+
+By consolidating liquidity in one major DEX rather than fragmenting it across multiple platforms, Aerodrome helps create deeper markets and better trading experiences for all Base users.
+
+Frequently Asked Questions
+How does Aerodrome Finance work?
+Aerodrome works as an AMM where users can swap tokens, provide liquidity, and earn rewards. Its unique feature is the veAERO governance system that directs liquidity incentives to different pools based on voter preferences.
+
+What is the AERO token used for?
+AERO can be locked to receive veAERO, which grants governance rights, voting power for directing incentives, and a share of protocol fees. The token forms the backbone of the platform's incentive structure.
+
+What is the relationship between Aerodrome and Velodrome?
+Aerodrome is built on Velodrome V2 technology and shares the same development team. Essentially, Aerodrome is to Base what Velodrome is to Optimism – the primary liquidity hub for its respective network.
+
+How do I earn rewards on Aerodrome Finance?
+You can earn rewards by providing liquidity to pools, locking AERO for veAERO to receive protocol fees, or receiving bribes for directing your veAERO votes toward specific pools.
+
+What is veAERO and how does it differ from AERO?
+veAERO is what you get when you lock AERO tokens. Unlike AERO, veAERO grants voting rights and a share of protocol fees. The amount of veAERO you receive depends on how long you lock your AERO (up to 4 years).
+
+When was Aerodrome Finance launched?
+Aerodrome Finance launched in August 2023 alongside the Base network's public release.
+
+Final Thoughts
+Aerodrome Finance represents an important piece of infrastructure for the growing Base blockchain ecosystem. Its thoughtful tokenomics, governance model, and liquidity incentives create a solid foundation for DeFi activities on Base.
+
+Whether you're looking to trade, provide liquidity, or participate in governance, understanding how Aerodrome works is becoming increasingly important for anyone interested in the Base ecosystem.
+
+Remember that while DeFi protocols like Aerodrome offer exciting opportunities, they also come with risks. Always conduct thorough research and consider your risk tolerance before participating.
+
+Track Your Holdings Effortlessly with Nansen Portfolio
+Ready to take control of your investments? With Nansen Portfolio, you can seamlessly track your holdings — alongside all your other crypto assets — across multiple blockchains in one unified dashboard. Nansen’s powerful platform now fully integrates Aerodrome data, giving you real-time insights into your portfolio performance, DeFi positions, and transaction history.
+
+Why use Nansen Portfolio?
+Comprehensive Multi-Chain Support: Monitor 10+ other blockchains, ensuring you never miss a beat across your entire crypto portfolio.
+Real-Time Analytics: Access up-to-date onchain data, wallet balances, and DeFi activity for Aerodrome and beyond.
+Custom Alerts & Smart Money Tracking: Set alerts for major transactions and follow high-performing wallets within the crypto ecosystem.
+Easy Setup: Simply add your wallet address to the Nansen Portfolio dashboard and start tracking your digital assets instantly.
+Get started today!
+
+
+Disclaimer
+The authors of this content and members of Nansen may be participating or invested in some of the protocols or tokens mentioned herein. The foregoing statement acts as a disclosure of potential conflicts of interest and is not a recommendation to purchase or invest in any token or participate in any protocol. Nansen does not recommend any particular course of action in relation to any token or protocol. The content herein is meant purely for educational and informational purposes only and should not be relied upon as financial, investment, legal, tax or any other professional or other advice. None of the content and information herein is presented to induce or to attempt to induce any reader or other person to buy, sell or hold any token or participate in any protocol or enter into, or offer to enter into, any agreement for or with a view to buying or selling any token or participating in any protocol. Statements made herein (including statements of opinion, if any) are wholly generic and not tailored to take into account the personal needs and unique circumstances of any reader or any other person. Readers are strongly urged to exercise caution and have regard to their own personal needs and circumstances before making any decision to buy or sell any token or participate in any protocol. Observations and views expressed herein may be changed by Nansen at any time without notice. Nansen accepts no liability whatsoever for any losses or liabilities arising from the use of or reliance on any of this content.
+
+
+Aerodrome Finance
+Aerodrome Finance is a decentralized exchange on the Base network that integrates multiple automated market maker models into a unified platform. It is a central hub for trading, liquidity provisioning, and governance within the Base ecosystem. [5]
+
+Overview
+Aerodrome Finance is a decentralized exchange on the Base blockchain launched on August 28, 2023. It combines features from various AMM models—including Uniswap V2 and V3, Curve, and Convex—to serve as the primary liquidity hub for Base. The platform enables token swaps, generates trading fees, and incentivizes liquidity provision through AERO token emissions. Users can lock AERO to receive veAERO, which grants governance rights and a share of protocol fees.
+
+Developed by the creators of Velodrome on Optimism, Aerodrome builds on elements of the Solidly protocol and applies them to Base, an Ethereum Layer 2. Without a native Base token, AERO is the main incentive and governance asset. Coinbase Ventures participates in the protocol by locking AERO tokens and voting on emissions, reinforcing Aerodrome’s strategic role within the Base ecosystem. [6]
+
+Features
+Flight School
+Flight School is a recurring incentive program on Aerodrome Finance that distributes bonus veAERO to users who create new token locks. To qualify, a user must lock at least 2,500 veAERO during four weeks, referred to as a "class." At the end of each class, bonus distribution is proportional to each participant's share of the total qualifying veAERO. Coinbase One members receive a 1.3x weighting on their locks for bonus calculations. Since its launch, the program has distributed over 42.6 million AERO in veAERO form. [7]
+
+AERO Fed
+The AERO Fed is a governance mechanism on Aerodrome Finance that allows veAERO holders to influence the emission rate of AERO tokens. Initially, AERO emissions followed a fixed schedule, decreasing by 1% each week. Starting at epoch 67 (December 4, 2024), this system transitioned to a smart contract-controlled process, enabling veAERO voters to adjust emissions weekly by increasing, decreasing, or maintaining the current rate within set limits.
+
+The AERO Fed aims to align emissions policy with market conditions and ecosystem needs. Emissions can range from a maximum of 1% of total supply per week (52% annualized) to a minimum of 0.01% (0.52% annualized). During the initial implementation phase, emissions are automatically reduced while the community becomes familiar with the new system. Once the transition ends, veAERO holders will take full control of emission adjustments through on-chain voting. [8]
+
+Slipstream
+Slipstream is Aerodrome’s custom implementation of concentrated liquidity pools, designed to improve capital efficiency and trading execution on the Base network. It offers up to 10 times higher trading volume per unit of TVL than standard clAMM pools, using customizable tick spacing, optimized fees, and a tailored fee algorithm. As its share of Base trading volume grows, veAERO voters benefit from increased fee rewards, reinforcing Aerodrome's liquidity incentives. [9]
+
+AERO
+
+The AERO token is an ERC-20 asset that rewards liquidity providers on Aerodrome Finance. While it can be traded or used in liquidity pools, its main function is to be locked for governance participation and incentive alignment. All tokens held by the Aerodrome Foundation are locked, with no liquid vesting allocations for contributors or team members, placing them on equal footing with other participants in the system. [2] [10]
+
+veAERO
+veAERO is an ERC-721 non-fungible token representing locked AERO tokens for governance purposes on Aerodrome Finance. Users can lock AERO for up to four years to receive veAERO, with voting power increasing linearly based on the length of the lock period. For example, 100 AERO locked for four years equals 100 veAERO, while the same amount locked for one year yields 25 veAERO. Additional AERO can be added to an existing veAERO NFT, and these tokens are used to participate in governance decisions. [10]
+
+Tokenomics
+AERO and veAERO have the following allocation: [10]
+
+veVELO Lockers airdrop: 40%
+Public Goods Fund: 21%
+Foundation: 19%
+Flight School: 10%
+Voter Incentives: 8%
+Genesis Liquidity Incentives: 2%
+Funding
+In February 2024, Aerodrome Finance received an investment from the Base Ecosystem Fund, a program led by CB Ventures to support on-chain projects within the Base network. While the amount was not disclosed, the investment signaled strategic backing for Aerodrome, which held a 30% market share on Base and over $132 million in total value locked at the time, according to DeFiLlama. The fund had previously supported other Base-based projects such as Avantis, BSX, Onboard, and Truflation. Aerodrome described the investment as a step toward deeper collaboration in advancing Base’s infrastructure and liquidity ecosystem. [3] [4]
+
+
+
