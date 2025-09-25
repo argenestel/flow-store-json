@@ -1715,3 +1715,64 @@ Providing liquidity earns you trading fees and AERO emissions. It's key for pass
    - Go to the pool's gauge and stake LP to earn AERO rewards.
 
 5. Monitor and Manage: Use dashboards to track APR, emissions, and impermanent loss.
+
+
+
+Post
+
+See new posts
+Conversation
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+Concentrated Liquidity Efficiency 🚰
+
+Aerodrome's Slipstream concentrated liquidity pools offer a novel way to maximize capital efficiency and earn higher rewards for LPs.
+
+Here's a primer on Slipstream CL pools and how you can earn more AERO with less liquidity. ✈️
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+Traditional pools or vAMM use a constant product formula, spreading liquidity evenly across all price ranges.
+
+While effective and a core primitive of most DEXs, vAMM pools can be inefficient for tokens that support large volumes with limited liquidity.
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+CL pools allow LPs to focus their capital within defined price ranges, which can result in deeper liquidity around the active price, reducing slippage and improving the trading experience.
+
+Additionally, CL pools enable better capital efficiency and higher rewards for LPs.
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+Some of the benefits of CL Pools include:
+• Higher Capital Efficiency: Lower slippage and improved trading.
+• Increased Rewards: LPs can generate more AERO rewards per token deposited.
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+Customizable Risk Exposure:
+
+Although CL pools require a more active management style, they also offer greater flexibility. LPs can use the price range selection to align their liquidity to their market outlook.
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+Let's cover some of the basic technical details on Slipstream pools:
+
+• Stable vs Volatile Asset CL Pools
+• Tick Spacing: Minimum size of liquidity ranges
+• Fees: Share of trades directed to veAERO voters
+Aerodrome
+@AerodromeFi
+·
+Aug 16, 2024
+Stable CL Pools
+
+Stable CL pools use a more narrow price range boundary (tick space). These pools are optimal for highly correlated pairs like stablecoins coins and LSTs / LRTs, which rarely fluctuate in price relative to their pair.
+
