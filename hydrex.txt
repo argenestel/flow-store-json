@@ -1,0 +1,463 @@
+OverviewCore ConceptsTokenomicsDeFi DegensSecurityResourcesLegal
+
+Getting StartedWhy Hydrex?DeFi, SimplifiedPartnersVideo Tutorials
+
+### Getting Started
+
+Hydrex is a MetaDEX & Liquidity Infrastructure purpose-built for Base. It's designed as a coordination system where weekly community governance directs HYDX emissions & protocol revenue. Value flows to where liquidity and volume are most productive, based on protocol alignment.
+
+Hydrex Flywheel?
+
+How we utilize tokenomics to align incentives.
+
+[Open Dapp\\
+\\
+Hydrex.fi: Explore the Hydrex Dapp & Ecosystem.](https://hydrex.fi/)
+
+Video Tutorials
+
+Learn how to use Hydrex with step-by-step guides.
+
+### Why Hydrex?
+
+100% Revenue Share
+
+Long-Term Tokenomics
+
+Clean Launch, Public Good
+
+Omni-Liquidity Infra
+
+100% Revenue Share
+
+100% of protocol fees flow back to Hydrex Account holders through weekly distributions. Lock tokens to direct emissions and capture swap fees, bribes, and partner incentives. Holders own the protocol's cash flow.
+
+### DeFi, Simplified
+
+The Hydrex stack compresses the entire DeFi journey into fewer clicks with smarter routing, better capital efficiency, and Base-native UX.
+
+Atomic Transactions
+
+Bundle complex flows into a single signature. Swap, LP, and more -- all in one.
+
+Single-Asset LPs
+
+Deposit one asset, exit with an estimated 70/30 split, managed by best in class ALMs.
+
+Multi-Routing
+
+We provide native and external liquidity routes for optimal price and minimal slippage.
+
+Base-Native
+
+Sub Accounts, TBA Mini Apps, Coinbase Onramp, Attestations, Flashblocks, and more.
+
+Atomic Transactions
+
+Bundle complex flows into a single signature. Swap, LP, and more -- all in one.
+
+Single-Asset LPs
+
+Deposit one asset, exit with an estimated 70/30 split, managed by best in class ALMs.
+
+Multi-Routing
+
+We provide native and external liquidity routes for optimal price and minimal slippage.
+
+Base-Native
+
+Sub Accounts, TBA Mini Apps, Coinbase Onramp, Attestations, Flashblocks, and more.
+
+### Video Tutorials
+
+Learn how to use Hydrex with these step-by-step video guides.
+
+What is Hydrex?
+
+Learn about Hydrex and how it works.
+
+Create Account
+
+Set up your Protocol or Flex Account on Hydrex.
+
+Vote & Earn
+
+Learn to vote manually and maximize earnings.
+
+### Partners
+
+### Source Deep Liquidity on Base
+
+Need liquidity for your token or entire protocol? We help you source deep, sustainable liquidity on Base through our Hydrex flywheel.
+
+[Partner with us](https://t.me/larrettgee)
+
+OverviewCore ConceptsTokenomicsDeFi DegensSecurityResourcesLegal
+
+Getting StartedWhy Hydrex?DeFi, SimplifiedPartnersVideo Tutorials
+
+### Getting Started
+
+Hydrex is a MetaDEX & Liquidity Infrastructure purpose-built for Base. It's designed as a coordination system where weekly community governance directs HYDX emissions & protocol revenue. Value flows to where liquidity and volume are most productive, based on protocol alignment.
+
+Hydrex Flywheel?
+
+How we utilize tokenomics to align incentives.
+
+[Open Dapp\\
+\\
+Hydrex.fi: Explore the Hydrex Dapp & Ecosystem.](https://hydrex.fi/)
+
+Video Tutorials
+
+Learn how to use Hydrex with step-by-step guides.
+
+### Why Hydrex?
+
+100% Revenue Share
+
+Long-Term Tokenomics
+
+Clean Launch, Public Good
+
+Omni-Liquidity Infra
+
+100% Revenue Share
+
+100% of protocol fees flow back to Hydrex Account holders through weekly distributions. Lock tokens to direct emissions and capture swap fees, bribes, and partner incentives. Holders own the protocol's cash flow.
+
+
+What is the Hydrex Flywheel?
+The Hydrex Flywheel creates sustainable growth by aligning incentives between liquidity providers, token holders, and the protocol itself.
+
+In this system, users lock tokens into NFTs (called Flex or Protocol Accounts) to gain earning power and split 100% of protocol-generated fees weekly. The longer & larger the lock, the greater the influence and yield. Earning power is applied through voting, and as a result emissions are directed toward the voted-upon pools (Liquid Accounts). The more votes, the more emissions percentage to any given pool.
+
+Hydrex flywheel graphic
+The Hydrex Protocol creates a powerful flywheel: lock tokens, vote for pools, attract liquidity, generate fees, and repeat. When executed well, it sustains deep liquidity, boosts protocol alignment, and rewards long-term participants.
+
+Account Types
+Hydrex offers three types of accounts that represent different ways to earn and participate in the ecosystem. This accomodates several types of user demand, while rewarding protocol alignment & long-term growth.
+
+Type	Denominated In	Rewards In	Acquired By	DeFi Equivalent
+Liquid	Any Asset	oHYDX	Providing Liquidity	Staked LP
+Flex	Flex-Locked HYDX	Rebased HYDX + Fees + Bribes	Locking Liquid HYDX	Traditional veTokens
+Protocol	Permalocked HYDX	Rebased HYDX + Fees + Bribes	Converting oHYDX to veNFT or Rebases	Permanently Locked veTokens
+Liquid Accounts
+The most flexible option. Functions like lending assets & earning yield, which can increase other account balances. Earns oHYDX on a per-block basis.
+
+Flex Accounts
+Lock liquid HYDX for 2 years, giving a 30% boost in weekly earning power. Offers an early exit penalty on day 1 of the lock at 50%. This penalty decreases linearly over 2 years, and so does earning power if not relocked.
+
+Protocol Accounts
+Acquired via oHYDX conversion or through rebases. Offers 1:1 weekly earning power, and is permenantly locked. Earning power does not decrease over time.
+
+Strategic Protocol Reserve
+At the foundation of Hydrex's token model is a Strategic Protocol Reserve: every HYDX in circulation requires at least 0.01 USDC to be released into the market. This reserve mechanism is core to the protocol's economic framework, ensuring that token emissions are supported by actual capital inflow rather than unchecked inflation.
+
+New HYDX does not enter the market directly. Instead, users earn oHYDX, an options token that represents the right to mint liquid HYDX. To convert oHYDX into liquid HYDX, users must deposit the greater of 0.01 USDC or 30% of HYDX's USD value per token. This creates a strategic reserve that provides foundational support, reinforces stability, and generates protocol-owned liquidity with every redemption.
+
+oHYDX redemption options and reserve mechanism
+The accumulated USDC will be deployed through predefined mechanisms including low-risk yield generation, strategic liquidity provision, and protocol development initiatives. The minimum value of the reserve will not drop below 0.01 USDC per HYDX, but during the bootstrapping phase, the Core Contributors may deploy excess capital on growth opportunities. Upon sufficient decentralization, the reserve management will transition to governance control.
+
+Account Automations
+Hydrex enables the automation of voting, fee collection, and more through a tool we developed called conduits. This automation is entirely optional. Advanced users can manually manage their accounts to optimize positions, voting, and fee claiming.
+
+Flex & Protocol Account Automations
+
+1. Select Output Asset(s)
+Choose your preferred rewards
+
+2. Votes Automated Weekly
+Automation optimizes votes for rewards
+
+3. Fees Handled
+Automation claims & converts fees
+Voting and weekly fee collection/conversion for Flex & Protocol Accounts costs 1% of fees to subsidize gas and automation infrastructure.
+Liquid Account Automations
+For Liquid Account holders, conduits enable Account Automation by automating the conversion of earned oHYDX into larger Protocol Account positions, maximizing earning power over time. By automatically converting rewards into permanently locked positions, users can compound their protocol participation without manual intervention. More automations for Liquid Accounts will be introduced as the protocol evolves.
+
+Omni-Liquidity
+Hydrex takes a liquidity-neutral approach, prioritizing user outcomes over protocol self-interest. Instead of pushing users exclusively into native pools, Hydrex routes and incentivizes liquidity through the most competitive sources to deliver optimal results.
+
+Routing
+We route through any LP on Base and give users the best rate available across all liquidity sources.
+
+Liquidity Sourcing
+For partner liquidity, we support Hydrex LPs, UniV4 LPs, and soon more decentralized exchange liquidity sources as the ecosystem expands.
+
+Other Liquidity
+We expect to incorporate other liquidity types that extend past DEX LPs, such as Morpho Vaults and additional yield-generating opportunities.
+
+By treating liquidity as a shared resource across the entire Base ecosystem, Hydrex increases efficiency, improves returns, and builds long-term trust with both LPs and traders.
+
+Supply & Distribution
+HYDX is the native token that powers governance, rewards, and long-term alignment across the Hydrex protocol. Its initial supply and distribution are designed to balance community growth, contributor incentives, and protocol sustainability. Please note:
+
+Initial Allocation
+Category	Amount	Issuance	Uses
+Community & Partner Growth Activations	50%	Locked	Community campaigns (e.g., Basedrop), partner allocations, protocol activations
+Treasury	25%	22% Locked, 3% Liquid Reserve	Locked for operational expenses, audits, infrastructure, general runway. Liquid for strategic liquidity provisioning
+Core Contributors	20%	Locked	Team compensation, long‑term incentives, and hiring
+Protocol Owned Liquidity	3%	Liquid	Seed liquidity
+Advisors & Early Supporters	2%	Locked	Strategic guidance, early supporter alignment
+Additional liquid reserves have been responsibly deployed to stabilize price and deepen markets. Circulating supply may increase due to Basedrop Flex Locking. You can always see the up to date circulating supply and market cap on CoinGecko here.
+Supply Curve
+Permalocked % Estimate
+80
+%
+W1
+W3
+W5
+W7
+W9
+W11
+W13
+W15
+W17
+W19
+W21
+W23
+W25
+W27
+W29
+W31
+W33
+W35
+W37
+W39
+W41
+W43
+W45
+W47
+W49
+W52
+0M
+250M
+500M
+750M
+1000M
+Modeled for the first 52 weeks only; indicative and subject to governance changes.
+
+Emissions
+Emissions Phases
+Bootstrap (W1–20)
+Start at 0.1% of initial supply per week. Increase by 0.1% per week to 2% by week 20.
+
+Stabilize (W21–50)
+Reduce emissions by ~0.0333% per week for 30 weeks, approaching ~1%/week by year end.
+
+Governance‑Guided (W51+)
+Community governance may adjust issuance ±0.0333% weekly to balance growth and sustainability.
+
+Projected Y1 Emissions Rate
+W1
+W3
+W5
+W7
+W9
+W11
+W13
+W15
+W17
+W19
+W21
+W23
+W25
+W27
+W29
+W31
+W33
+W35
+W37
+W39
+W41
+W43
+W45
+W47
+W49
+W52
+0.00%
+0.55%
+1.10%
+1.65%
+2.20%
+Modeled for the first 52 weeks only; indicative and subject to governance changes.
+
+Rebases & Anti-Dilution
+Rebase share for veHYDX holders begins at 26% of emissions and decreases by 0.5% each week for the first year, phasing out as the ecosystem matures. Rebases are proportional to existing earning power and offset dilution from new issuance.
+
+Combined with emissions ramping and options-token redemption mechanics, this design promotes long-term engagement and sustainable growth while avoiding runaway inflation.
+
+Options Token (oHYDX)
+Liquid HYDX is the base token of the protocol, but it doesn't enter circulation freely. Each HYDX must have at least 0.01 of USDC collected before being emitted via an options token redemption (see Strategic Protocol Reserve). Users can access liquid HYDX by redeeming oHYDX and supplying the USDC or by acquiring it on the open market.
+
+oHYDX is the options token earned through liquidity mining and other protocol incentives. It can be redeemed in two ways: permalocked into a veNFT for long-term rewards, or converted into liquid HYDX by paying USDC. This model gives users a choice between immediate liquidity and deeper protocol alignment.
+
+HYDX, oHYDX and token options
+Redeem for Liquid HYDX
+Users can redeem oHYDX by supplying at least 0.01 USDC per token. The USDC is placed into the Strategic Protocol Reserve (learn more), reinforcing long-term sustainability. This creates a strategic reserve that provides foundational support, reinforces stability, and generates protocol-owned liquidity with every redemption.
+
+Convert to Permalocked HYDX
+Users can also convert their oHYDX rewards directly into Protocol Accounts (e.g., permalocked veNFTs) without supplying any USDC. Once created, these cannot be withdrawn, but they receive permanent earning power in the Hydrex protocol at a 1:1 ratio with the underlying veTokens that were locked. This is ideal for users who want long-term exposure and maximum protocol alignment.
+
+This system ensures HYDX supply expands only when users take real action, protecting against inflation and short-term farming while giving users flexibility in how they utilize their earned rewards.
+
+Early Exit
+Flex account holders can exit their positions early by paying a penalty in unvested HYDX. This penalty is permanently burned, reducing the total HYDX supply and creating deflationary pressure.
+
+The penalty structure starts at 50% for immediate exits after a 2-year lock, then decreases linearly over time to 0% after 2 years without relocking. For example, after 1 year, users can exit immediately by burning 25% of their underlying HYDX. This mechanism provides emergency liquidity while discouraging premature exits and maintaining protocol stability.
+
+Earning Power
+Effective earning power is the earning power that will be used to compete for fees. This earning power comes from various sources including community claims (e.g., Basedrop), partner activations, team allocations, automation delegations, and partner holdings, Any active earning power not specified in this amount does not compete for fees and is used to encourage emissions to new gauges & low-profit DEX essentials like stablecoin pairs.
+
+ve(3,3) Refresher
+Hydrex originates from the ve(3,3) model, but differs in several key ways. If you're unfamiliar with ve(3,3), here's a refresher: The ve(3,3) model combines two major innovations in DeFi: vote-escrow (ve) mechanics, which reward users for locking tokens, and the (3,3) game theory from Olympus DAO, which incentivizes cooperative staking behavior.
+
+In this system, users lock tokens into NFTs (veTokens) to gain governance power and earn protocol rewards. The larger the lock, the greater the influence and earning power. This happens through weekly voting. The pools/gauges with the most votes, receive the most emissions, aligning incentives between voters, LPs, and protocols.
+
+ve(3,3) flywheel graphic
+ve(3,3) creates a powerful flywheel: lock tokens, vote for pools, attract liquidity, generate fees, and repeat. When executed well, it sustains deep liquidity, boosts protocol alignment, and rewards long-term participants.
+
+Hydrex builds on this foundation with different lock types, reserve-conscious emissions, and a UX that finally makes the model accessible to everyone.
+
+Mental Mapping
+Hydrex aims to simplify the unnecessarily complex ve(3,3) model. If you're familiar with ve(3,3) protocols, here's how the concepts map:
+
+Traditional ve(3,3)
+Permalocked veTokens
+→
+veToken Locks
+→
+Staked LP
+→
+Emissions
+→
+Relayer/Automation
+→
+Hydrex Equivalent
+Protocol Accounts
+Flex Accounts
+Liquid Accounts
+oHYDX Rewards
+Account Automations
+Key Differences
+Strategic Protocol Reserve: Every HYDX requires at minimum 0.01 USDC into the protocol before emissions.
+Early Exit Ability: veTokens/Accounts created with liquid HYDX can be released at any time by taking a vesting penalty. This penalty is burned.
+Account Automations: Delegate not just voting power, but your entire involvement in the flywheel.
+Omni-liquidity: Gauges are not limited to native LPs.
+Multiple Lock Types: Flex vs Permalocked to accomodate different users.
+Single Deposit LPs
+We offer ALM strategies (via Ichi) that let you deposit a single asset and participate in a managed LP position. On withdrawal, you receive approximately a 70/30 split of the pair, reflecting the current pool state.
+
+How it works:
+Deposit one token of the pair — no manual ratioing needed
+Strategy actively manages a concentrated LP position
+Withdrawals return an estimated 70/30 split of assets
+Why it matters:
+Maximizes capital efficiency
+Minimizes impermanent loss
+No active rebalancing or management required
+Note: Actual withdrawal ratios may vary due to price movement, fees, and position rebalancing.
+
+Native Liquidity Types
+While Hydrex abstracts much of the liquidity experience across LP types and ALMs, we do offer in-house LPs types.
+
+Algebra Integral clAMM
+Our primary LP mechanism uses Algebra's concentrated liquidity Automated Market Maker with dynamic fees that adapt to market conditions in real-time.
+
+Features:
+Concentrated liquidity positions
+Dynamic fee adjustment
+Capital efficiency optimization
+Benefits:
+Higher yields during volatility
+Reduced impermanent loss
+Automated rebalancing
+Native Solidly-Style LPs
+Coming SoonTraditional Solidly-style stable and volatile pools for familiar LP experiences with enhanced rewards.
+
+Pool Types:
+Stable pairs (low slippage)
+Volatile pairs (higher fees)
+Correlated asset pools
+Advantages:
+Simplified LP management
+Predictable fee structures
+Native gauge integration
+Omni-Liquidity Strategy
+Hydrex automatically routes through and offers the most capital efficient liquidity sources, combining our native pools with external DEXs to ensure you always get the best rates. Future integrations will extend beyond DEX liquidity to include yield sources like Morpho Vaults.
+
+Security
+At Hydrex, security is our top priority. We've built our protocol on proven foundations with a strong track record of safety and reliability.
+
+Battle-Tested Codebase: Hydrex forks from proven protocols, such as Lynex & Thena, that have undergone extensive audits and maintained clean operational histories without security incidents.
+Algebra & Uniswap v4 DEX Infrastructure: Our trading engine uses Algebra & Uniswap v4 stacks, which have been thoroughly audited by leading security firms.
+ALM Integrations: We integrate with Ichi & Gamma's audited Automated Liquidity Management systems, providing users with professionally validated liquidity optimization strategies.
+Audits
+All of Hydrex's core contracts & integrations have been audited by leading security firms.
+
+Contracts	Role	Audit Reports
+Hydrex Core Protocol	Core Protocol	Audit Details
+Algebra Integral	DEX Infrastructure	Audit Details
+Uniswap v4	DEX Infrastructure	Audit Details
+Ichi	Automated Liquidity Manager	Audit Details
+Gamma	Automated Liquidity Manager	Audit Details
+Contracts
+Contract	Address
+Tokens
+HYDX Token	
+0x00000e7efa313F4E11Bfff432471eD9423AC6B30
+
+Options Token	
+0xA1136031150E50B015b41f1ca6B2e99e49D8cB78
+
+Protocol
+Pool Deployer	
+0x1595A5D101d69D2a2bAB2976839cC8eeEb13Ab94
+
+Factory	
+0x36077D39cdC65E1e3FB65810430E5b2c4D5fA29E
+
+Router	
+0x6f4bE24d7dC93b6ffcBAb3Fd0747c5817Cea3F9e
+
+QuoterV2	
+0x08b46265643a5389529D6f6616FA4a0d66F13Fdb
+
+Hydrex Voter	
+0xc69E3eF39E3fFBcE2A1c570f8d3ADF76909ef17b
+
+Hydrex veToken Accounts	
+0x25B2ED7149fb8A05f6eF9407d9c8F878f59cd1e1
+
+Basedrop
+Hydropoints	
+0xd5c0e6829399Ec123FFac5ed0dD1ad19d6bD62d4
+
+Protocol Mining	
+0x44662921E156724D65cEDa2a7FA6ce1eFf4907E8
+
+Hydrex Badges	
+0x1456d91DE219e0c707C835f54cdBD3F0a6D67Dad
+
+Additionally, you can find an updated list of our strategies at our API here.
+
+
+  Socials
+Follow and connect with us:
+
+X (Twitter)
+@hydrexfi
+Farcaster
+@hydrexfi
+Discord
+@hydrexfi
+Contact Us
+Reach out for integrations or customer support:
+
+Partnership Support
+Contact a founder directly
+t.me/larrettgee →
+Customer Support
+Open a ticket in Discord
+discord.gg/hydrexfi →
